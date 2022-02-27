@@ -39,7 +39,10 @@ AC_CONFIG_HEADERS([config.h])
 AC_USE_SYSTEM_EXTENSIONS
 
 # Checks for programs.
-AC_PROG_LEX
+# Autoconf 2.70 added an option and warns if not provided,
+m4_version_prereq([2.70],
+  [AC_PROG_LEX(noyywrap)],
+  [AC_PROG_LEX])
 AC_PROG_YACC
 AC_PROG_CC
 AC_PROG_CC_C99
