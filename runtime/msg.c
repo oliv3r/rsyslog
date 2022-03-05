@@ -3532,7 +3532,6 @@ uchar *MsgGetProp(smsg_t *__restrict__ const pMsg, struct templateEntry *__restr
 	uchar *pBufStart;
 	uchar *pBuf;
 	int iLen;
-	short iOffs;
 	enum tplFormatTypes datefmt;
 	int bDateInUTC;
 
@@ -4003,7 +4002,7 @@ uchar *MsgGetProp(smsg_t *__restrict__ const pMsg, struct templateEntry *__restr
 			if(objUse(regexp, LM_REGEXP_FILENAME) == RS_RET_OK) {
 				short iTry = 0;
 				uchar bFound = 0;
-				iOffs = 0;
+				short iOffs = 0;
 				/* first see if we find a match, iterating through the series of
 				 * potential matches over the string.
 				 */
