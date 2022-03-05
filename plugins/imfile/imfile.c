@@ -64,7 +64,7 @@
 #include "ruleset.h"
 #include "ratelimit.h"
 #include "srUtils.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "datetime.h"
 
 #include <regex.h>

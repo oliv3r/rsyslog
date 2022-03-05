@@ -36,7 +36,7 @@
 #define	MODULES_H_INCLUDED 1
 
 #include "objomsr.h"
-#include "rainerscript.h"
+#include "grammar/rainerscript.h"
 
 
 /* the following define defines the current version of the module interface.

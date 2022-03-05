@@ -64,7 +64,7 @@
 #include "net.h"
 #include "var.h"
 #include "rsconf.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "errmsg.h"
 
 #define DEV_DEBUG 0	/* set to 1 to enable very verbose developer debugging messages */

@@ -64,7 +64,7 @@
 #include "outchannel.h"
 #include "threads.h"
 #include "datetime.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "modules.h"
 #include "dirty.h"
 #include "template.h"

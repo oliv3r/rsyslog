@@ -34,9 +34,9 @@
 #include "syslogd-types.h"
 #include "template.h"
 #include "msg.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "module-template.h"
-#include "rainerscript.h"
+#include "grammar/rainerscript.h"
 #include "unicode-helper.h"
 
 MODULE_TYPE_FUNCTION

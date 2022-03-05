@@ -45,7 +45,7 @@
 #include "strgen.h"
 #include "rsconf.h"
 #include "msg.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "unicode-helper.h"
 
 PRAGMA_INGORE_Wswitch_enum

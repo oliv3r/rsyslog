@@ -39,7 +39,7 @@
 #include "template.h"
 #include "module-template.h"
 #include "errmsg.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 
 
 MODULE_TYPE_OUTPUT

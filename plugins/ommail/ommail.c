@@ -51,7 +51,7 @@
 #include "errmsg.h"
 #include "datetime.h"
 #include "glbl.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 
 MODULE_TYPE_OUTPUT
 MODULE_TYPE_NOKEEP

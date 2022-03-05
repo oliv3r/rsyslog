@@ -43,7 +43,7 @@
 #include "module-template.h"
 #include "errmsg.h"
 #include "cfsysline.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 
 MODULE_TYPE_OUTPUT
 MODULE_TYPE_NOKEEP

@@ -31,8 +31,8 @@
 #include "rsyslog.h"
 #include "unicode-helper.h"
 #include "errmsg.h"
-#include "parserif.h"
-#include "rainerscript.h"
+#include "grammar/parserif.h"
+#include "grammar/rainerscript.h"
 #include "srUtils.h"
 #include "rsconf.h"
 

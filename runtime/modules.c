@@ -50,7 +50,7 @@
 #include <sys/file.h>
 
 #include "rsyslog.h"
-#include "rainerscript.h"
+#include "grammar/rainerscript.h"
 #include "cfsysline.h"
 #include "rsconf.h"
 #include "modules.h"

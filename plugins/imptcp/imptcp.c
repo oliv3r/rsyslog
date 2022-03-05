@@ -71,7 +71,7 @@
 #include "datetime.h"
 #include "ruleset.h"
 #include "msg.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "statsobj.h"
 #include "ratelimit.h"
 #include "net.h" /* for permittedPeers, may be removed when this is removed */

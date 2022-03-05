@@ -61,7 +61,7 @@
 #include "operatingstate.h"
 #include "dirty.h"
 #include "janitor.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 
 /* some global vars we need to differentiate between environments,
  * for TZ-related things see

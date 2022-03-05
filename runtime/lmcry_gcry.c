@@ -32,7 +32,7 @@
 #include "glbl.h"
 #include "errmsg.h"
 #include "cryprov.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "libgcry.h"
 #include "lmcry_gcry.h"
 

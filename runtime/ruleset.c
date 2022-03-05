@@ -45,7 +45,7 @@
 #include "unicode-helper.h"
 #include "rsconf.h"
 #include "action.h"
-#include "rainerscript.h"
+#include "grammar/rainerscript.h"
 #include "srUtils.h"
 #include "modules.h"
 #include "wti.h"

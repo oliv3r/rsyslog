@@ -64,7 +64,7 @@
 #include "ruleset.h"
 #include "rsconf.h"
 #include "unicode-helper.h"
-#include "rainerscript.h"
+#include "grammar/rainerscript.h"
 
 #ifdef OS_SOLARIS
 #	define NAME_MAX MAXNAMELEN

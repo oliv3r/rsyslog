@@ -38,9 +38,9 @@
 #include <time.h>
 
 #include "rsyslog.h"
-#include "rainerscript.h"
+#include "grammar/rainerscript.h"
 #include "conf.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "parse.h"
 #include "rsconf.h"
 #include "grammar.h"

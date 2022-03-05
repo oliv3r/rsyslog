@@ -31,9 +31,9 @@
 
 #include "errmsg.h"
 #include "msg.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "module-template.h"
-#include "rainerscript.h"
+#include "grammar/rainerscript.h"
 #include "wti.h"
 
 #define FMUNFLATTEN_KBUFLEN 256

@@ -42,7 +42,7 @@
 #include <fcntl.h>
 #include "rsyslog.h"
 #include "srUtils.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 
 PRAGMA_IGNORE_Wsign_compare
 PRAGMA_IGNORE_Wmissing_noreturn
@@ -205,8 +205,8 @@ expand_backticks(char *const param)
 #include <string.h>
 #include <strings.h>
 #include <libestr.h>
-#include "rainerscript.h"
-#include "parserif.h"
+#include "grammar/rainerscript.h"
+#include "grammar/parserif.h"
 #include "grammar.h"
 static int preCommentState;	/* save for lex state before a comment */
 

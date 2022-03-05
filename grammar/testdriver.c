@@ -26,8 +26,8 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <libestr.h>
-#include "rainerscript.h"
-#include "parserif.h"
+#include "grammar/rainerscript.h"
+#include "grammar/parserif.h"
 
 extern int yylineno;
 int Debug = 1;

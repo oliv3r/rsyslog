@@ -53,7 +53,7 @@
 #include "errmsg.h"
 #include "unicode-helper.h"
 #include "module-template.h"
-#include "rainerscript.h"
+#include "grammar/rainerscript.h"
 #include "rsconf.h"
 #include "glbl.h"
 #include "srUtils.h"

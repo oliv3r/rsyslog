@@ -62,9 +62,9 @@
 #include "errmsg.h"
 #include "tcpsrv.h"
 #include "ruleset.h"
-#include "rainerscript.h"
+#include "grammar/rainerscript.h"
 #include "net.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 
 MODULE_TYPE_INPUT
 MODULE_TYPE_NOKEEP

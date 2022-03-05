@@ -31,7 +31,7 @@
 #include "template.h"
 #include "module-template.h"
 #include "errmsg.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

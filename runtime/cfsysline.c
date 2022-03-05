@@ -42,7 +42,7 @@
 #include "srUtils.h"
 #include "unicode-helper.h"
 #include "rsconf.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 
 
 /* static data */

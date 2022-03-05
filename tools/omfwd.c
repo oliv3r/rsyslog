@@ -56,7 +56,7 @@
 #include "glbl.h"
 #include "errmsg.h"
 #include "unicode-helper.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "ratelimit.h"
 #include "statsobj.h"
 

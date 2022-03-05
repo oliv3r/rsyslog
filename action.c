@@ -113,7 +113,7 @@
 #include "unicode-helper.h"
 #include "atomic.h"
 #include "ruleset.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "statsobj.h"
 
 /* AIXPORT : cs renamed to legacy_cs as clashes with libpthreads variable in complete file*/

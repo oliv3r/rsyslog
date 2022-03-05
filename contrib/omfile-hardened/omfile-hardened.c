@@ -71,7 +71,7 @@
 #include "statsobj.h"
 #include "sigprov.h"
 #include "cryprov.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "janitor.h"
 
 MODULE_TYPE_OUTPUT

@@ -49,7 +49,7 @@
 #include "glbl.h"
 #include "statsobj.h"
 #include "srUtils.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 
 MODULE_TYPE_INPUT
 MODULE_TYPE_NOKEEP

@@ -54,7 +54,7 @@ PRAGMA_DIAGNOSTIC_POP
 #include "datetime.h"
 #include "errmsg.h"
 #include "cfsysline.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "unicode-helper.h"
 
 MODULE_TYPE_OUTPUT

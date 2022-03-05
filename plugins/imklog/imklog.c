@@ -51,7 +51,7 @@
 
 #include "dirty.h"
 #include "cfsysline.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "obj.h"
 #include "msg.h"
 #include "module-template.h"

@@ -34,7 +34,7 @@
 #ifdef ENABLE_LIBLOGGING_STDLOG
 #include <liblogging/stdlog.h>
 #endif
-#include "rainerscript.h"
+#include "grammar/rainerscript.h"
 #include "prop.h"
 
 #define glblGetIOBufSize() 4096 /* size of the IO buffer, e.g. for strm class */

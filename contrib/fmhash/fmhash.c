@@ -44,9 +44,9 @@
 #endif
 
 #include "rsyslog.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "module-template.h"
-#include "rainerscript.h"
+#include "grammar/rainerscript.h"
 
 
 

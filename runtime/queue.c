@@ -61,7 +61,7 @@
 #include "datetime.h"
 #include "unicode-helper.h"
 #include "statsobj.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "rsconf.h"
 
 #ifdef OS_SOLARIS

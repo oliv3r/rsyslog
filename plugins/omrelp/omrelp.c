@@ -52,7 +52,7 @@
 #include "glbl.h"
 #include "errmsg.h"
 #include "debug.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 #include "unicode-helper.h"
 
 #ifndef RELP_DFLT_PT

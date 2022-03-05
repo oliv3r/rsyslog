@@ -45,7 +45,7 @@
 #include <systemd/sd-journal.h>
 #include "unicode-helper.h"
 #include <sys/uio.h>
-#include "parserif.h"
+#include "grammar/parserif.h"
 
 MODULE_TYPE_OUTPUT
 MODULE_TYPE_NOKEEP

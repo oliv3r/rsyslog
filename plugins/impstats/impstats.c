@@ -50,7 +50,7 @@
 #include "statsobj.h"
 #include "prop.h"
 #include "ruleset.h"
-#include "parserif.h"
+#include "grammar/parserif.h"
 
 
 MODULE_TYPE_INPUT
