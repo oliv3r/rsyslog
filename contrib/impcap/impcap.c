@@ -45,18 +45,18 @@
 
 #include <pcap.h>
 
-#include "rsyslog.h"
-#include "prop.h"
-#include "ruleset.h"
-#include "datetime.h"
+#include "runtime/rsyslog.h"
+#include "runtime/prop.h"
+#include "runtime/ruleset.h"
+#include "runtime/datetime.h"
 
-#include "errmsg.h"
-#include "unicode-helper.h"
-#include "module-template.h"
+#include "runtime/errmsg.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/module-template.h"
 #include "grammar/rainerscript.h"
-#include "rsconf.h"
-#include "glbl.h"
-#include "srUtils.h"
+#include "runtime/rsconf.h"
+#include "runtime/glbl.h"
+#include "runtime/srUtils.h"
 
 #include "parsers.h"
 
@@ -145,7 +145,7 @@ static struct cnfparamblk modpblk = {
 		modpdescr
 };
 
-#include "im-helper.h"
+#include "runtime/im-helper.h"
 
 /*
  * create input instance, set default parameters, and

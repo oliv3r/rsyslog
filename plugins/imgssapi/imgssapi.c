@@ -44,22 +44,22 @@
 #include <fcntl.h>
 #endif
 #include <gssapi/gssapi.h>
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "dirty.h"
-#include "cfsysline.h"
-#include "module-template.h"
-#include "unicode-helper.h"
-#include "net.h"
-#include "srUtils.h"
-#include "gss-misc.h"
-#include "tcpsrv.h"
-#include "tcps_sess.h"
-#include "errmsg.h"
-#include "netstrm.h"
-#include "glbl.h"
-#include "debug.h"
-#include "unlimited_select.h"
-#include "rsconf.h"
+#include "runtime/cfsysline.h"
+#include "runtime/module-template.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/net.h"
+#include "runtime/srUtils.h"
+#include "runtime/gss-misc.h"
+#include "runtime/tcpsrv.h"
+#include "runtime/tcps_sess.h"
+#include "runtime/errmsg.h"
+#include "runtime/netstrm.h"
+#include "runtime/glbl.h"
+#include "runtime/debug.h"
+#include "runtime/unlimited_select.h"
+#include "runtime/rsconf.h"
 
 MODULE_TYPE_INPUT
 MODULE_TYPE_NOKEEP

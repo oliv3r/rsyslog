@@ -29,7 +29,7 @@
  * limitations under the License.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
@@ -41,15 +41,15 @@
 #include <libgen.h>
 #include <dbi/dbi.h>
 #include "dirty.h"
-#include "syslogd-types.h"
-#include "cfsysline.h"
-#include "conf.h"
-#include "srUtils.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/cfsysline.h"
+#include "runtime/conf.h"
+#include "runtime/srUtils.h"
 #include "template.h"
-#include "module-template.h"
-#include "debug.h"
-#include "errmsg.h"
-#include "conf.h"
+#include "runtime/module-template.h"
+#include "runtime/debug.h"
+#include "runtime/errmsg.h"
+#include "runtime/conf.h"
 
 #undef HAVE_DBI_TXSUPP
 /* transaction support disabled in v8 -- TODO: reenable */

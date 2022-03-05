@@ -31,14 +31,14 @@
 #include <string.h>
 #include <assert.h>
 
-#include "rsyslog.h"
-#include "msg.h"
-#include "obj.h"
-#include "errmsg.h"
-#include "strgen.h"
-#include "ruleset.h"
-#include "unicode-helper.h"
-#include "cfsysline.h"
+#include "runtime/rsyslog.h"
+#include "runtime/msg.h"
+#include "runtime/obj.h"
+#include "runtime/errmsg.h"
+#include "runtime/strgen.h"
+#include "runtime/ruleset.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/cfsysline.h"
 
 /* definitions for objects we access */
 DEFobjStaticHelpers

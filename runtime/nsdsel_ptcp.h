@@ -25,7 +25,7 @@
 #define INCLUDED_NSDSEL_PTCP_H
 
 #include <poll.h>
-#include "nsd.h"
+#include "runtime/nsd.h"
 typedef nsdsel_if_t nsdsel_ptcp_if_t; /* we just *implement* this interface */
 
 /* the nsdsel_ptcp object */

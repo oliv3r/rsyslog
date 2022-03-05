@@ -32,15 +32,15 @@
 #include <netdb.h>
 #include <sys/types.h>
 #include <sys/socket.h>
-#include "rsyslog.h"
-#include "cfsysline.h"		/* access to config file objects */
-#include "module-template.h"
-#include "ruleset.h"
-#include "unicode-helper.h"
-#include "rsyslog.h"
-#include "errmsg.h"
-#include "statsobj.h"
-#include "ratelimit.h"
+#include "runtime/rsyslog.h"
+#include "runtime/cfsysline.h"		/* access to config file objects */
+#include "runtime/module-template.h"
+#include "runtime/ruleset.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/rsyslog.h"
+#include "runtime/errmsg.h"
+#include "runtime/statsobj.h"
+#include "runtime/ratelimit.h"
 #include "dirty.h"
 
 #include "civetweb.h"
@@ -169,7 +169,7 @@ static struct cnfparamdescr inppdescr[] = {
 	{ "addmetadata", eCmdHdlrBinary, 0 }
 };
 
-#include "im-helper.h" /* must be included AFTER the type definitions! */
+#include "runtime/im-helper.h" /* must be included AFTER the type definitions! */
 
 static struct cnfparamblk inppblk = {
 	CNFPARAMBLK_VERSION,
@@ -184,7 +184,7 @@ static struct {
 	STATSCOUNTER_DEF(ctrDiscarded, mutCtrDiscarded);
 } statsCounter;
 
-#include "im-helper.h" /* must be included AFTER the type definitions! */
+#include "runtime/im-helper.h" /* must be included AFTER the type definitions! */
 
 #define min(a, b) \
 	({ __typeof__ (a) _a = (a); \

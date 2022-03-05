@@ -23,12 +23,12 @@
 #ifndef INCLUDED_RSCONF_H
 #define INCLUDED_RSCONF_H
 
-#include "linkedlist.h"
-#include "queue.h"
-#include "lookup.h"
-#include "dynstats.h"
-#include "perctile_stats.h"
-#include "timezones.h"
+#include "runtime/linkedlist.h"
+#include "runtime/queue.h"
+#include "runtime/lookup.h"
+#include "runtime/dynstats.h"
+#include "runtime/perctile_stats.h"
+#include "runtime/timezones.h"
 
 /* --- configuration objects (the plan is to have ALL upper layers in this file) --- */
 

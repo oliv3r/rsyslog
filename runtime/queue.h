@@ -25,12 +25,12 @@
 #define QUEUE_H_INCLUDED
 
 #include <pthread.h>
-#include "obj.h"
-#include "wtp.h"
-#include "batch.h"
-#include "stream.h"
-#include "statsobj.h"
-#include "cryprov.h"
+#include "runtime/obj.h"
+#include "runtime/wtp.h"
+#include "runtime/batch.h"
+#include "runtime/stream.h"
+#include "runtime/statsobj.h"
+#include "runtime/cryprov.h"
 
 /* support for the toDelete list */
 typedef struct toDeleteLst_s toDeleteLst_t;

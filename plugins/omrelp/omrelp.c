@@ -35,7 +35,7 @@
  * limitations under the License.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
@@ -44,16 +44,16 @@
 #include <errno.h>
 #include <ctype.h>
 #include <librelp.h>
-#include "conf.h"
-#include "syslogd-types.h"
-#include "srUtils.h"
-#include "cfsysline.h"
-#include "module-template.h"
-#include "glbl.h"
-#include "errmsg.h"
-#include "debug.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
+#include "runtime/cfsysline.h"
+#include "runtime/module-template.h"
+#include "runtime/glbl.h"
+#include "runtime/errmsg.h"
+#include "runtime/debug.h"
 #include "grammar/parserif.h"
-#include "unicode-helper.h"
+#include "runtime/unicode-helper.h"
 
 #ifndef RELP_DFLT_PT
 #	define RELP_DFLT_PT "514"

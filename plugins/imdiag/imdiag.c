@@ -42,23 +42,23 @@
 #if HAVE_FCNTL_H
 #include <fcntl.h>
 #endif
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "dirty.h"
-#include "cfsysline.h"
-#include "module-template.h"
-#include "unicode-helper.h"
-#include "net.h"
-#include "netstrm.h"
-#include "errmsg.h"
-#include "tcpsrv.h"
-#include "srUtils.h"
-#include "msg.h"
-#include "datetime.h"
-#include "ratelimit.h"
-#include "queue.h"
-#include "lookup.h"
-#include "net.h" /* for permittedPeers, may be removed when this is removed */
-#include "statsobj.h"
+#include "runtime/cfsysline.h"
+#include "runtime/module-template.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/net.h"
+#include "runtime/netstrm.h"
+#include "runtime/errmsg.h"
+#include "runtime/tcpsrv.h"
+#include "runtime/srUtils.h"
+#include "runtime/msg.h"
+#include "runtime/datetime.h"
+#include "runtime/ratelimit.h"
+#include "runtime/queue.h"
+#include "runtime/lookup.h"
+#include "runtime/net.h" /* for permittedPeers, may be removed when this is removed */
+#include "runtime/statsobj.h"
 
 
 MODULE_TYPE_INPUT

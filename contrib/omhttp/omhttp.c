@@ -24,7 +24,7 @@
  * limitations under the License.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
@@ -44,18 +44,18 @@
 #endif
 #include <json.h>
 #include <zlib.h>
-#include "conf.h"
-#include "syslogd-types.h"
-#include "srUtils.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
 #include "template.h"
-#include "module-template.h"
-#include "errmsg.h"
-#include "cfsysline.h"
-#include "unicode-helper.h"
-#include "obj-types.h"
-#include "ratelimit.h"
-#include "ruleset.h"
-#include "statsobj.h"
+#include "runtime/module-template.h"
+#include "runtime/errmsg.h"
+#include "runtime/cfsysline.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/obj-types.h"
+#include "runtime/ratelimit.h"
+#include "runtime/ruleset.h"
+#include "runtime/statsobj.h"
 
 #ifndef O_LARGEFILE
 #  define O_LARGEFILE 0

@@ -22,22 +22,22 @@
  * limitations under the License.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
 #include <errno.h>
 #include <ctype.h>
 #include <curl/curl.h>
-#include "errmsg.h"
-#include "conf.h"
-#include "syslogd-types.h"
+#include "runtime/errmsg.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
 #include "template.h"
-#include "msg.h"
+#include "runtime/msg.h"
 #include "grammar/parserif.h"
-#include "module-template.h"
+#include "runtime/module-template.h"
 #include "grammar/rainerscript.h"
-#include "unicode-helper.h"
+#include "runtime/unicode-helper.h"
 
 MODULE_TYPE_FUNCTION
 MODULE_TYPE_NOKEEP

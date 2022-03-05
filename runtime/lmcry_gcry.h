@@ -20,7 +20,7 @@
  */
 #ifndef INCLUDED_LMCRY_GCRY_H
 #define INCLUDED_LMCRY_GCRY_H
-#include "cryprov.h"
+#include "runtime/cryprov.h"
 
 /* interface is defined in cryprov.h, we just implement it! */
 #define lmcry_gcryCURR_IF_VERSION cryprovCURR_IF_VERSION

@@ -34,21 +34,21 @@
 #include <assert.h>
 #include <ctype.h>
 
-#include "rsyslog.h"
-#include "obj.h"
-#include "cfsysline.h"
-#include "msg.h"
-#include "ruleset.h"
-#include "errmsg.h"
-#include "parser.h"
-#include "batch.h"
-#include "unicode-helper.h"
-#include "rsconf.h"
+#include "runtime/rsyslog.h"
+#include "runtime/obj.h"
+#include "runtime/cfsysline.h"
+#include "runtime/msg.h"
+#include "runtime/ruleset.h"
+#include "runtime/errmsg.h"
+#include "runtime/parser.h"
+#include "runtime/batch.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/rsconf.h"
 #include "action.h"
 #include "grammar/rainerscript.h"
-#include "srUtils.h"
-#include "modules.h"
-#include "wti.h"
+#include "runtime/srUtils.h"
+#include "runtime/modules.h"
+#include "runtime/wti.h"
 #include "dirty.h" /* for main ruleset queue creation */
 
 

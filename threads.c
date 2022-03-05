@@ -35,15 +35,15 @@
 #  include <sys/prctl.h>
 #endif
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "dirty.h"
-#include "linkedlist.h"
+#include "runtime/linkedlist.h"
 #include "threads.h"
-#include "srUtils.h"
-#include "errmsg.h"
-#include "glbl.h"
-#include "unicode-helper.h"
-#include "rsconf.h"
+#include "runtime/srUtils.h"
+#include "runtime/errmsg.h"
+#include "runtime/glbl.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/rsconf.h"
 
 /* linked list of currently-known threads */
 static linkedList_t llThrds;

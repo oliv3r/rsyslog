@@ -44,22 +44,22 @@
 #ifdef HAVE_SYS_PRCTL_H
 #  include <sys/prctl.h>
 #endif
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "dirty.h"
-#include "net.h"
-#include "cfsysline.h"
-#include "module-template.h"
-#include "srUtils.h"
-#include "errmsg.h"
-#include "glbl.h"
-#include "msg.h"
-#include "parser.h"
-#include "datetime.h"
-#include "prop.h"
-#include "ruleset.h"
-#include "statsobj.h"
-#include "ratelimit.h"
-#include "unicode-helper.h"
+#include "runtime/net.h"
+#include "runtime/cfsysline.h"
+#include "runtime/module-template.h"
+#include "runtime/srUtils.h"
+#include "runtime/errmsg.h"
+#include "runtime/glbl.h"
+#include "runtime/msg.h"
+#include "runtime/parser.h"
+#include "runtime/datetime.h"
+#include "runtime/prop.h"
+#include "runtime/ruleset.h"
+#include "runtime/statsobj.h"
+#include "runtime/ratelimit.h"
+#include "runtime/unicode-helper.h"
 
 MODULE_TYPE_INPUT
 MODULE_TYPE_NOKEEP
@@ -197,7 +197,7 @@ static struct cnfparamblk inppblk =
 	  inppdescr
 	};
 
-#include "im-helper.h" /* must be included AFTER the type definitions! */
+#include "runtime/im-helper.h" /* must be included AFTER the type definitions! */
 
 
 /* create input instance, set default parameters, and

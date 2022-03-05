@@ -22,7 +22,7 @@
 #ifndef INCLUDED_NSSEL_H
 #define INCLUDED_NSSEL_H
 
-#include "netstrms.h"
+#include "runtime/netstrms.h"
 
 /* the nssel object */
 struct nssel_s {

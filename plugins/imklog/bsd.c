@@ -38,9 +38,9 @@
 #	include <sys/klog.h>
 #endif
 
-#include "rsyslog.h"
-#include "srUtils.h"
-#include "debug.h"
+#include "runtime/rsyslog.h"
+#include "runtime/srUtils.h"
+#include "runtime/debug.h"
 #include "imklog.h"
 
 /* globals */

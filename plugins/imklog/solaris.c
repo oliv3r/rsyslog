@@ -40,10 +40,10 @@
 
 
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "imklog.h"
-#include "srUtils.h"
-#include "unicode-helper.h"
+#include "runtime/srUtils.h"
+#include "runtime/unicode-helper.h"
 #include "solaris_cddl.h"
 
 /* globals */

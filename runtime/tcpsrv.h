@@ -21,11 +21,11 @@
 #ifndef INCLUDED_TCPSRV_H
 #define INCLUDED_TCPSRV_H
 
-#include "obj.h"
-#include "prop.h"
-#include "net.h"
-#include "tcps_sess.h"
-#include "statsobj.h"
+#include "runtime/obj.h"
+#include "runtime/prop.h"
+#include "runtime/net.h"
+#include "runtime/tcps_sess.h"
+#include "runtime/statsobj.h"
 
 /* support for framing anomalies */
 typedef enum ETCPsyslogFramingAnomaly {

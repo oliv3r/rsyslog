@@ -20,7 +20,7 @@
  * limitations under the License.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <assert.h>
@@ -40,16 +40,16 @@
 #endif
 
 #include "dirty.h"
-#include "cfsysline.h"
-#include "module-template.h"
-#include "errmsg.h"
-#include "msg.h"
-#include "srUtils.h"
-#include "unicode-helper.h"
-#include "glbl.h"
-#include "statsobj.h"
-#include "prop.h"
-#include "ruleset.h"
+#include "runtime/cfsysline.h"
+#include "runtime/module-template.h"
+#include "runtime/errmsg.h"
+#include "runtime/msg.h"
+#include "runtime/srUtils.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/glbl.h"
+#include "runtime/statsobj.h"
+#include "runtime/prop.h"
+#include "runtime/ruleset.h"
 #include "grammar/parserif.h"
 
 

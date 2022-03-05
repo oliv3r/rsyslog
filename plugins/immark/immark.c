@@ -29,7 +29,7 @@
  * limitations under the License.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <assert.h>
@@ -37,15 +37,15 @@
 #include <string.h>
 #include <pthread.h>
 #include "dirty.h"
-#include "cfsysline.h"
-#include "module-template.h"
-#include "errmsg.h"
-#include "msg.h"
-#include "srUtils.h"
-#include "glbl.h"
-#include "unicode-helper.h"
-#include "ruleset.h"
-#include "prop.h"
+#include "runtime/cfsysline.h"
+#include "runtime/module-template.h"
+#include "runtime/errmsg.h"
+#include "runtime/msg.h"
+#include "runtime/srUtils.h"
+#include "runtime/glbl.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/ruleset.h"
+#include "runtime/prop.h"
 
 MODULE_TYPE_INPUT
 MODULE_TYPE_NOKEEP

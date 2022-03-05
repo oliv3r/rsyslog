@@ -30,13 +30,13 @@
 #include <string.h>
 #include <sys/select.h>
 
-#include "rsyslog.h"
-#include "module-template.h"
-#include "obj.h"
-#include "errmsg.h"
-#include "nsd_ptcp.h"
-#include "nsdsel_ptcp.h"
-#include "unlimited_select.h"
+#include "runtime/rsyslog.h"
+#include "runtime/module-template.h"
+#include "runtime/obj.h"
+#include "runtime/errmsg.h"
+#include "runtime/nsd_ptcp.h"
+#include "runtime/nsdsel_ptcp.h"
+#include "runtime/unlimited_select.h"
 
 #define FDSET_INCREMENT 1024 /* increment for struct pollfds array allocation */
 /* static data */

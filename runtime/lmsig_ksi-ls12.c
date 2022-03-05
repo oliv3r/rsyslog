@@ -22,16 +22,16 @@
  */
 #include "config.h"
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-#include "module-template.h"
-#include "glbl.h"
-#include "errmsg.h"
-#include "sigprov.h"
-#include "lmsig_ksi-ls12.h"
+#include "runtime/module-template.h"
+#include "runtime/glbl.h"
+#include "runtime/errmsg.h"
+#include "runtime/sigprov.h"
+#include "runtime/lmsig_ksi-ls12.h"
 
 MODULE_TYPE_LIB
 MODULE_TYPE_NOKEEP

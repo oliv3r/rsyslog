@@ -22,7 +22,7 @@
 #include <stdbool.h>
 #include <math.h>
 #include <assert.h>
-#include "perctile_ringbuf.h"
+#include "runtime/perctile_ringbuf.h"
 
 static uint64_t min(uint64_t a, uint64_t b) {
 	return a < b ? a : b;

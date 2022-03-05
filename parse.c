@@ -32,10 +32,10 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netdb.h>
-#include "rsyslog.h"
-#include "net.h" /* struct NetAddr */
+#include "runtime/rsyslog.h"
+#include "runtime/net.h" /* struct NetAddr */
 #include "parse.h"
-#include "debug.h"
+#include "runtime/debug.h"
 
 /* ################################################################# *
  * private members                                                   *

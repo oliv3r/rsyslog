@@ -49,15 +49,15 @@
 //#	include <sched.h>
 //#endif
 
-#include "rsyslog.h"
-#include "stringbuf.h"
-#include "srUtils.h"
-#include "wtp.h"
-#include "wti.h"
-#include "obj.h"
-#include "unicode-helper.h"
-#include "glbl.h"
-#include "errmsg.h"
+#include "runtime/rsyslog.h"
+#include "runtime/stringbuf.h"
+#include "runtime/srUtils.h"
+#include "runtime/wtp.h"
+#include "runtime/wti.h"
+#include "runtime/obj.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/glbl.h"
+#include "runtime/errmsg.h"
 
 /* static data */
 DEFobjStaticHelpers

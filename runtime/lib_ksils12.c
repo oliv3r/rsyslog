@@ -58,10 +58,10 @@
 #include <ksi/net_ha.h>
 #include <ksi/net_uri.h>
 #include <ksi/signature_builder.h>
-#include "rsyslog.h"
-#include "errmsg.h"
-#include "lib_ksils12.h"
-#include "lib_ksi_queue.h"
+#include "runtime/rsyslog.h"
+#include "runtime/errmsg.h"
+#include "runtime/lib_ksils12.h"
+#include "runtime/lib_ksi_queue.h"
 
 #ifndef VERSION
 #define VERSION "no-version"

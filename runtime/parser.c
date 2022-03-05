@@ -31,17 +31,17 @@
 #include <assert.h>
 #include <zlib.h>
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "dirty.h"
-#include "msg.h"
-#include "obj.h"
-#include "datetime.h"
-#include "errmsg.h"
-#include "parser.h"
-#include "ruleset.h"
-#include "unicode-helper.h"
+#include "runtime/msg.h"
+#include "runtime/obj.h"
+#include "runtime/datetime.h"
+#include "runtime/errmsg.h"
+#include "runtime/parser.h"
+#include "runtime/ruleset.h"
+#include "runtime/unicode-helper.h"
 #include "dirty.h"
-#include "cfsysline.h"
+#include "runtime/cfsysline.h"
 
 /* some defines */
 #define DEFUPRI		(LOG_USER|LOG_NOTICE)

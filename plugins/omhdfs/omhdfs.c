@@ -24,7 +24,7 @@
  */
 
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
@@ -43,16 +43,16 @@
 #  include <hadoop/hdfs.h>
 #endif
 
-#include "syslogd-types.h"
-#include "srUtils.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
 #include "template.h"
-#include "conf.h"
-#include "cfsysline.h"
-#include "module-template.h"
-#include "unicode-helper.h"
-#include "errmsg.h"
-#include "hashtable.h"
-#include "hashtable_itr.h"
+#include "runtime/conf.h"
+#include "runtime/cfsysline.h"
+#include "runtime/module-template.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/errmsg.h"
+#include "runtime/hashtable.h"
+#include "runtime/hashtable_itr.h"
 
 MODULE_TYPE_OUTPUT
 MODULE_TYPE_NOKEEP

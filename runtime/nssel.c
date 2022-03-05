@@ -29,19 +29,19 @@
  */
 #include "config.h"
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
 #include <errno.h>
 #include <string.h>
 
-#include "rsyslog.h"
-#include "obj.h"
-#include "module-template.h"
-#include "netstrm.h"
-#include "nssel.h"
-#include "rsconf.h"
+#include "runtime/rsyslog.h"
+#include "runtime/obj.h"
+#include "runtime/module-template.h"
+#include "runtime/netstrm.h"
+#include "runtime/nssel.h"
+#include "runtime/rsconf.h"
 
 /* static data */
 DEFobjStaticHelpers

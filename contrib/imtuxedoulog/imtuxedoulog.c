@@ -46,20 +46,20 @@
 #ifdef _AIX
 # include <alloca.h>
 #endif
-#include "rsyslog.h"		/* error codes etc... */
+#include "runtime/rsyslog.h"		/* error codes etc... */
 #include "dirty.h"
-#include "cfsysline.h"		/* access to config file objects */
-#include "module-template.h"	/* generic module interface code - very important, read it! */
-#include "srUtils.h"		/* some utility functions */
-#include "msg.h"
-#include "stream.h"
-#include "errmsg.h"
-#include "glbl.h"
-#include "unicode-helper.h"
-#include "prop.h"
-#include "stringbuf.h"
-#include "ruleset.h"
-#include "ratelimit.h"
+#include "runtime/cfsysline.h"		/* access to config file objects */
+#include "runtime/module-template.h"	/* generic module interface code - very important, read it! */
+#include "runtime/srUtils.h"		/* some utility functions */
+#include "runtime/msg.h"
+#include "runtime/stream.h"
+#include "runtime/errmsg.h"
+#include "runtime/glbl.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/prop.h"
+#include "runtime/stringbuf.h"
+#include "runtime/ruleset.h"
+#include "runtime/ratelimit.h"
 
 struct instanceConf_s {
 	uchar *pszUlogBaseName;
@@ -135,7 +135,7 @@ static struct cnfparamblk inppblk =
 		inppdescr
 	};
 
-#include "im-helper.h" /* must be included AFTER the type definitions! */
+#include "runtime/im-helper.h" /* must be included AFTER the type definitions! */
 
 static uchar * mkFileNameWithTime(instanceConf_t *in)
 {

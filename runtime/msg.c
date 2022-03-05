@@ -49,23 +49,23 @@
 #  include <uuid/uuid.h>
 #endif
 #include <errno.h>
-#include "rsyslog.h"
-#include "srUtils.h"
-#include "stringbuf.h"
+#include "runtime/rsyslog.h"
+#include "runtime/srUtils.h"
+#include "runtime/stringbuf.h"
 #include "template.h"
-#include "msg.h"
-#include "datetime.h"
-#include "glbl.h"
-#include "regexp.h"
-#include "atomic.h"
-#include "unicode-helper.h"
-#include "ruleset.h"
-#include "prop.h"
-#include "net.h"
-#include "var.h"
-#include "rsconf.h"
+#include "runtime/msg.h"
+#include "runtime/datetime.h"
+#include "runtime/glbl.h"
+#include "runtime/regexp.h"
+#include "runtime/atomic.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/ruleset.h"
+#include "runtime/prop.h"
+#include "runtime/net.h"
+#include "runtime/var.h"
+#include "runtime/rsconf.h"
 #include "grammar/parserif.h"
-#include "errmsg.h"
+#include "runtime/errmsg.h"
 
 #define DEV_DEBUG 0	/* set to 1 to enable very verbose developer debugging messages */
 

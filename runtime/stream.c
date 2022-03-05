@@ -54,17 +54,17 @@
 #  include <sys/prctl.h>
 #endif
 
-#include "rsyslog.h"
-#include "stringbuf.h"
-#include "srUtils.h"
-#include "obj.h"
-#include "stream.h"
-#include "unicode-helper.h"
-#include "module-template.h"
-#include "errmsg.h"
-#include "cryprov.h"
-#include "datetime.h"
-#include "rsconf.h"
+#include "runtime/rsyslog.h"
+#include "runtime/stringbuf.h"
+#include "runtime/srUtils.h"
+#include "runtime/obj.h"
+#include "runtime/stream.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/module-template.h"
+#include "runtime/errmsg.h"
+#include "runtime/cryprov.h"
+#include "runtime/datetime.h"
+#include "runtime/rsconf.h"
 
 /* some platforms do not have large file support :( */
 #ifndef O_LARGEFILE
@@ -2478,7 +2478,7 @@ strmSetWCntr(strm_t *pThis, number_t *pWCnt)
 }
 
 
-#include "stringbuf.h"
+#include "runtime/stringbuf.h"
 
 /* This function can be used as a generic way to set properties.
  * rgerhards, 2008-01-11

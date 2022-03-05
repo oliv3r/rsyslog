@@ -51,20 +51,20 @@
 #undef LOG_CRON
 #endif
 
-#include "rsyslog.h"
-#include "conf.h"
-#include "syslogd-types.h"
-#include "srUtils.h"
+#include "runtime/rsyslog.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
 #include "template.h"
-#include "module-template.h"
-#include "unicode-helper.h"
-#include "errmsg.h"
-#include "cfsysline.h"
-#include "glbl.h"
-#include "prop.h"
-#include "ruleset.h"
-#include "ratelimit.h"
-#include "stringbuf.h"
+#include "runtime/module-template.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/errmsg.h"
+#include "runtime/cfsysline.h"
+#include "runtime/glbl.h"
+#include "runtime/prop.h"
+#include "runtime/ruleset.h"
+#include "runtime/ratelimit.h"
+#include "runtime/stringbuf.h"
 
 MODULE_TYPE_INPUT
 MODULE_TYPE_NOKEEP
@@ -130,7 +130,7 @@ std_checkRuleset_genErrMsg(__attribute__((unused)) modConfData_t *modConf, insta
 			pInst->pszBinary);
 }
 
-#include "im-helper.h" /* must be included AFTER the type definitions! */
+#include "runtime/im-helper.h" /* must be included AFTER the type definitions! */
 
 /* tables for interfacing with the v6 config system */
 /* action (instance) parameters */

@@ -22,7 +22,7 @@
 #ifndef INCLUDED_NSDSEL_GTLS_H
 #define INCLUDED_NSDSEL_GTLS_H
 
-#include "nsd.h"
+#include "runtime/nsd.h"
 typedef nsdsel_if_t nsdsel_gtls_if_t; /* we just *implement* this interface */
 
 /* the nsdsel_gtls object */

@@ -36,12 +36,12 @@
 #include <assert.h>
 #include <string.h>
 
-#include "rsyslog.h"
-#include "obj.h"
-#include "obj-types.h"
-#include "unicode-helper.h"
-#include "atomic.h"
-#include "prop.h"
+#include "runtime/rsyslog.h"
+#include "runtime/obj.h"
+#include "runtime/obj-types.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/atomic.h"
+#include "runtime/prop.h"
 
 /* static data */
 DEFobjStaticHelpers

@@ -48,10 +48,10 @@
 #include <fcntl.h>
 #include <errno.h>
 
-#include "rsyslog.h"
-#include "srUtils.h"
-#include "debug.h"
-#include "libgcry.h"
+#include "runtime/rsyslog.h"
+#include "runtime/srUtils.h"
+#include "runtime/debug.h"
+#include "runtime/libgcry.h"
 
 #define READBUF_SIZE 4096	/* size of the read buffer */
 

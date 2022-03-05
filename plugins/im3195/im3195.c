@@ -39,16 +39,16 @@
 #include <unistd.h>
 #include <sys/errno.h>
 #include <assert.h>
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "dirty.h"
 #include "liblogging/liblogging.h"
 #include "liblogging/srAPI.h"
 #include "liblogging/syslogmessage.h"
-#include "module-template.h"
-#include "cfsysline.h"
-#include "msg.h"
-#include "errmsg.h"
-#include "unicode-helper.h"
+#include "runtime/module-template.h"
+#include "runtime/cfsysline.h"
+#include "runtime/msg.h"
+#include "runtime/errmsg.h"
+#include "runtime/unicode-helper.h"
 
 MODULE_TYPE_INPUT
 MODULE_TYPE_NOKEEP

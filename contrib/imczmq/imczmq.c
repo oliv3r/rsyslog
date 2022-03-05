@@ -18,24 +18,24 @@
  */
 
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <assert.h>
 #include <errno.h>
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-#include "cfsysline.h"
+#include "runtime/cfsysline.h"
 #include "dirty.h"
-#include "errmsg.h"
-#include "glbl.h"
-#include "module-template.h"
-#include "msg.h"
-#include "net.h"
-#include "parser.h"
-#include "prop.h"
-#include "ruleset.h"
-#include "srUtils.h"
-#include "unicode-helper.h"
+#include "runtime/errmsg.h"
+#include "runtime/glbl.h"
+#include "runtime/module-template.h"
+#include "runtime/msg.h"
+#include "runtime/net.h"
+#include "runtime/parser.h"
+#include "runtime/prop.h"
+#include "runtime/ruleset.h"
+#include "runtime/srUtils.h"
+#include "runtime/unicode-helper.h"
 #include <czmq.h>
 
 MODULE_TYPE_INPUT
@@ -96,7 +96,7 @@ static struct cnfparamdescr inppdescr[] = {
 	{ "topics", eCmdHdlrGetWord, 0 },
 };
 
-#include "im-helper.h"
+#include "runtime/im-helper.h"
 
 static struct cnfparamblk inppblk = {
 	CNFPARAMBLK_VERSION,

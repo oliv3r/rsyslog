@@ -22,7 +22,7 @@
 #define MODULE_NAME "mmdblookup" /* how are we named? */
 
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
@@ -33,12 +33,12 @@
 #include <unistd.h>
 #include <stdint.h>
 #include <pthread.h>
-#include "conf.h"
-#include "syslogd-types.h"
-#include "srUtils.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
 #include "template.h"
-#include "module-template.h"
-#include "errmsg.h"
+#include "runtime/module-template.h"
+#include "runtime/errmsg.h"
 #include "grammar/parserif.h"
 
 

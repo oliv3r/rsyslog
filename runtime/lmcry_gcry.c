@@ -22,19 +22,19 @@
  */
 #include "config.h"
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
 
-#include "module-template.h"
-#include "glbl.h"
-#include "errmsg.h"
-#include "cryprov.h"
+#include "runtime/module-template.h"
+#include "runtime/glbl.h"
+#include "runtime/errmsg.h"
+#include "runtime/cryprov.h"
 #include "grammar/parserif.h"
-#include "libgcry.h"
-#include "lmcry_gcry.h"
+#include "runtime/libgcry.h"
+#include "runtime/lmcry_gcry.h"
 
 MODULE_TYPE_LIB
 MODULE_TYPE_NOKEEP

@@ -38,12 +38,12 @@
 #include <stdarg.h>
 #include <sys/types.h>
 #include <libestr.h>
-#include "rsyslog.h"
-#include "stringbuf.h"
-#include "srUtils.h"
-#include "regexp.h"
-#include "errmsg.h"
-#include "unicode-helper.h"
+#include "runtime/rsyslog.h"
+#include "runtime/stringbuf.h"
+#include "runtime/srUtils.h"
+#include "runtime/regexp.h"
+#include "runtime/errmsg.h"
+#include "runtime/unicode-helper.h"
 
 #define DEV_DEBUG 0	/* set to 1 to enable very verbose developer debugging messages */
 

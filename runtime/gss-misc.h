@@ -23,7 +23,7 @@
 #define	GSS_MISC_H_INCLUDED 1
 
 #include <gssapi/gssapi.h>
-#include "obj.h"
+#include "runtime/obj.h"
 
 /* interfaces */
 BEGINinterface(gssutil) /* name must also be changed in ENDinterface macro! */

@@ -36,8 +36,8 @@
  * limitations under the License.
  */
 #include "config.h"
-#include "rsyslog.h"
-#include "glbl.h"
+#include "runtime/rsyslog.h"
+#include "runtime/glbl.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
@@ -56,23 +56,23 @@
 #endif
 
 
-#include "conf.h"
-#include "syslogd-types.h"
-#include "srUtils.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
 #include "template.h"
 #include "outchannel.h"
 #include "omfile.h"
-#include "cfsysline.h"
-#include "module-template.h"
-#include "errmsg.h"
-#include "stream.h"
-#include "unicode-helper.h"
-#include "atomic.h"
-#include "statsobj.h"
-#include "sigprov.h"
-#include "cryprov.h"
+#include "runtime/cfsysline.h"
+#include "runtime/module-template.h"
+#include "runtime/errmsg.h"
+#include "runtime/stream.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/atomic.h"
+#include "runtime/statsobj.h"
+#include "runtime/sigprov.h"
+#include "runtime/cryprov.h"
 #include "grammar/parserif.h"
-#include "janitor.h"
+#include "runtime/janitor.h"
 
 MODULE_TYPE_OUTPUT
 MODULE_TYPE_NOKEEP

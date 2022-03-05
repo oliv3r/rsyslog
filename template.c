@@ -28,25 +28,25 @@
  */
 #include "config.h"
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
 #include <assert.h>
 #include <json.h>
-#include "stringbuf.h"
-#include "syslogd-types.h"
+#include "runtime/stringbuf.h"
+#include "runtime/syslogd-types.h"
 #include "template.h"
-#include "msg.h"
+#include "runtime/msg.h"
 #include "dirty.h"
-#include "obj.h"
-#include "errmsg.h"
-#include "strgen.h"
-#include "rsconf.h"
-#include "msg.h"
+#include "runtime/obj.h"
+#include "runtime/errmsg.h"
+#include "runtime/strgen.h"
+#include "runtime/rsconf.h"
+#include "runtime/msg.h"
 #include "grammar/parserif.h"
-#include "unicode-helper.h"
+#include "runtime/unicode-helper.h"
 
 PRAGMA_INGORE_Wswitch_enum
 /* static data */

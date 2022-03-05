@@ -23,8 +23,8 @@
 #define WTP_H_INCLUDED
 
 #include <pthread.h>
-#include "obj.h"
-#include "atomic.h"
+#include "runtime/obj.h"
+#include "runtime/atomic.h"
 
 /* states for worker threads.
  * important: they need to be increasing with all previous state bits

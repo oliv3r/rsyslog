@@ -23,7 +23,7 @@
 #ifndef INCLUDED_NSDSEL_OSSL_H
 #define INCLUDED_NSDSEL_OSSL_H
 
-#include "nsd.h"
+#include "runtime/nsd.h"
 typedef nsdsel_if_t nsdsel_ossl_if_t; /* we just *implement* this interface */
 
 /* the nsdsel_ossl object */

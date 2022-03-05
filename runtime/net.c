@@ -52,17 +52,17 @@
 #include <sys/types.h>
 #include <arpa/inet.h>
 
-#include "rsyslog.h"
-#include "syslogd-types.h"
-#include "module-template.h"
+#include "runtime/rsyslog.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/module-template.h"
 #include "parse.h"
-#include "srUtils.h"
-#include "obj.h"
-#include "errmsg.h"
-#include "net.h"
-#include "dnscache.h"
-#include "prop.h"
-#include "rsconf.h"
+#include "runtime/srUtils.h"
+#include "runtime/obj.h"
+#include "runtime/errmsg.h"
+#include "runtime/net.h"
+#include "runtime/dnscache.h"
+#include "runtime/prop.h"
+#include "runtime/rsconf.h"
 
 #ifdef OS_SOLARIS
 #include <arpa/nameser_compat.h>

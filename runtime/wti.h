@@ -24,9 +24,9 @@
 
 #include <pthread.h>
 #include <stdlib.h>
-#include "wtp.h"
-#include "obj.h"
-#include "batch.h"
+#include "runtime/wtp.h"
+#include "runtime/obj.h"
+#include "runtime/batch.h"
 #include "action.h"
 
 

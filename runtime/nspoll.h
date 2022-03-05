@@ -22,7 +22,7 @@
 #ifndef INCLUDED_NSPOLL_H
 #define INCLUDED_NSPOLL_H
 
-#include "netstrms.h"
+#include "runtime/netstrms.h"
 
 /* some operations to be portable when we do not have epoll() available */
 #define NSDPOLL_ADD	1

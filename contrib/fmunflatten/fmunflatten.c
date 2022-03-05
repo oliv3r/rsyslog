@@ -22,19 +22,19 @@
 #include <stdint.h>
 #include <stddef.h>
 #ifndef _AIX
-#include <typedefs.h>
+#include "runtime/typedefs.h"
 #endif
 #include <sys/types.h>
 #include <string.h>
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 
-#include "errmsg.h"
-#include "msg.h"
+#include "runtime/errmsg.h"
+#include "runtime/msg.h"
 #include "grammar/parserif.h"
-#include "module-template.h"
+#include "runtime/module-template.h"
 #include "grammar/rainerscript.h"
-#include "wti.h"
+#include "runtime/wti.h"
 
 #define FMUNFLATTEN_KBUFLEN 256
 #define _jso_type(x) json_type_to_name(json_object_get_type(x))

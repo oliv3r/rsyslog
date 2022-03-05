@@ -32,8 +32,8 @@
 
 #include <json.h>
 #include <libestr.h>
-#include "regexp.h"
-#include "stringbuf.h"
+#include "runtime/regexp.h"
+#include "runtime/stringbuf.h"
 
 struct template {
 	struct template *pNext;
@@ -71,7 +71,7 @@ enum tplRegexType { TPL_REGEX_BRE = 0, /* posix BRE */
 		    TPL_REGEX_ERE = 1  /* posix ERE */
 		  };
 
-#include "msg.h"
+#include "runtime/msg.h"
 
 /* a specific parse entry */
 struct templateEntry {

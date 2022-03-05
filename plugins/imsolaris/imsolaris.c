@@ -63,7 +63,7 @@
  * A copy of the GPL can be found in the file "COPYING" in this distribution.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -73,18 +73,18 @@
 #include <sys/strlog.h>
 #include <errno.h>
 #include "dirty.h"
-#include "cfsysline.h"
-#include "unicode-helper.h"
-#include "module-template.h"
-#include "srUtils.h"
-#include "errmsg.h"
-#include "net.h"
-#include "glbl.h"
-#include "msg.h"
-#include "prop.h"
+#include "runtime/cfsysline.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/module-template.h"
+#include "runtime/srUtils.h"
+#include "runtime/errmsg.h"
+#include "runtime/net.h"
+#include "runtime/glbl.h"
+#include "runtime/msg.h"
+#include "runtime/prop.h"
 #include "sun_cddl.h"
-#include "datetime.h"
-#include "rsconf.h"
+#include "runtime/datetime.h"
+#include "runtime/rsconf.h"
 
 MODULE_TYPE_INPUT
 MODULE_TYPE_NOKEEP

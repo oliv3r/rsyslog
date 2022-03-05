@@ -32,7 +32,7 @@
 #ifndef INCLUDED_ATOMIC_H
 #define INCLUDED_ATOMIC_H
 #include <time.h>
-#include "typedefs.h"
+#include "runtime/typedefs.h"
 
 /* for this release, we disable atomic calls because there seem to be some
  * portability problems and we can not fix that without destabilizing the build.

@@ -24,7 +24,7 @@
 #ifndef INCLUDED_NSDPOLL_PTCP_H
 #define INCLUDED_NSDPOLL_PTCP_H
 
-#include "nsd.h"
+#include "runtime/nsd.h"
 #ifdef HAVE_SYS_EPOLL_H
 #	include <sys/epoll.h>
 #endif

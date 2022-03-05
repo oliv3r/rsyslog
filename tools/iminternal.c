@@ -25,7 +25,7 @@
  * limitations under the License.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -35,7 +35,7 @@
 #include <signal.h>
 
 #include "syslogd.h"
-#include "linkedlist.h"
+#include "runtime/linkedlist.h"
 #include "iminternal.h"
 
 static linkedList_t llMsgs;

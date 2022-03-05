@@ -35,8 +35,8 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#include "rsyslog.h"
-#include "linkedlist.h"
+#include "runtime/rsyslog.h"
+#include "runtime/linkedlist.h"
 
 
 /* Initialize an existing linkedList_t structure

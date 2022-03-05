@@ -20,8 +20,8 @@
  */
 #ifndef INCLUDED_LMSIG_LS12_KSI_H
 #define INCLUDED_LMSIG_LS12_KSI_H
-#include "sigprov.h"
-#include "lib_ksils12.h"
+#include "runtime/sigprov.h"
+#include "runtime/lib_ksils12.h"
 
 /* interface is defined in sigprov.h, we just implement it! */
 #define lmsig_ksi_ls12CURR_IF_VERSION sigprovCURR_IF_VERSION

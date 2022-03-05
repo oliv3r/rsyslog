@@ -22,7 +22,7 @@
  * limitations under the License.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <dirent.h>
 #include <assert.h>
@@ -37,20 +37,20 @@
 #include <systemd/sd-journal.h>
 
 #include "dirty.h"
-#include "cfsysline.h"
-#include "obj.h"
-#include "msg.h"
-#include "module-template.h"
-#include "datetime.h"
-#include "net.h"
-#include "glbl.h"
-#include "statsobj.h"
-#include "parser.h"
-#include "prop.h"
-#include "errmsg.h"
-#include "srUtils.h"
-#include "unicode-helper.h"
-#include "ratelimit.h"
+#include "runtime/cfsysline.h"
+#include "runtime/obj.h"
+#include "runtime/msg.h"
+#include "runtime/module-template.h"
+#include "runtime/datetime.h"
+#include "runtime/net.h"
+#include "runtime/glbl.h"
+#include "runtime/statsobj.h"
+#include "runtime/parser.h"
+#include "runtime/prop.h"
+#include "runtime/errmsg.h"
+#include "runtime/srUtils.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/ratelimit.h"
 
 
 MODULE_TYPE_INPUT

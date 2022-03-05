@@ -30,14 +30,14 @@
 #include <json.h>
 #include <assert.h>
 
-#include "rsyslog.h"
-#include "srUtils.h"
-#include "errmsg.h"
-#include "lookup.h"
-#include "msg.h"
-#include "rsconf.h"
+#include "runtime/rsyslog.h"
+#include "runtime/srUtils.h"
+#include "runtime/errmsg.h"
+#include "runtime/lookup.h"
+#include "runtime/msg.h"
+#include "runtime/rsconf.h"
 #include "dirty.h"
-#include "unicode-helper.h"
+#include "runtime/unicode-helper.h"
 
 PRAGMA_IGNORE_Wdeprecated_declarations
 /* definitions for objects we access */

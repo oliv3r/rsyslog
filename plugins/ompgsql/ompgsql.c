@@ -30,7 +30,7 @@
  * A copy of the GPL can be found in the file "COPYING" in this distribution.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
@@ -41,12 +41,12 @@
 #include <time.h>
 #include <netdb.h>
 #include <libpq-fe.h>
-#include "conf.h"
-#include "syslogd-types.h"
-#include "srUtils.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
 #include "template.h"
-#include "module-template.h"
-#include "errmsg.h"
+#include "runtime/module-template.h"
+#include "runtime/errmsg.h"
 #include "grammar/parserif.h"
 
 MODULE_TYPE_OUTPUT

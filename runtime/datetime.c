@@ -35,15 +35,15 @@
 #	include <sys/time.h>
 #endif
 
-#include "rsyslog.h"
-#include "obj.h"
-#include "modules.h"
-#include "datetime.h"
-#include "srUtils.h"
-#include "stringbuf.h"
-#include "errmsg.h"
-#include "rsconf.h"
-#include "timezones.h"
+#include "runtime/rsyslog.h"
+#include "runtime/obj.h"
+#include "runtime/modules.h"
+#include "runtime/datetime.h"
+#include "runtime/srUtils.h"
+#include "runtime/stringbuf.h"
+#include "runtime/errmsg.h"
+#include "runtime/rsconf.h"
+#include "runtime/timezones.h"
 
 /* static data */
 DEFobjStaticHelpers

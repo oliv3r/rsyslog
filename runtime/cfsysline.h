@@ -22,7 +22,7 @@
 #ifndef CFSYSLINE_H_INCLUDED
 #define CFSYSLINE_H_INCLUDED
 
-#include "linkedlist.h"
+#include "runtime/linkedlist.h"
 
 /* this is a single entry for a parse routine. It describes exactly
  * one entry point/handler.

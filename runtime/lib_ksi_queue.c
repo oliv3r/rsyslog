@@ -1,7 +1,7 @@
 #include <malloc.h>
 #include <time.h>
 #include <errno.h>
-#include "lib_ksi_queue.h"
+#include "runtime/lib_ksi_queue.h"
 
 RingBuffer* RingBuffer_new(size_t size) {
 	RingBuffer *p = calloc(1, sizeof (RingBuffer));

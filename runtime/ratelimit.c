@@ -25,14 +25,14 @@
 #include <string.h>
 #include <assert.h>
 
-#include "rsyslog.h"
-#include "errmsg.h"
-#include "ratelimit.h"
-#include "datetime.h"
-#include "parser.h"
-#include "unicode-helper.h"
-#include "msg.h"
-#include "rsconf.h"
+#include "runtime/rsyslog.h"
+#include "runtime/errmsg.h"
+#include "runtime/ratelimit.h"
+#include "runtime/datetime.h"
+#include "runtime/parser.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/msg.h"
+#include "runtime/rsconf.h"
 #include "dirty.h"
 
 /* definitions for objects we access */

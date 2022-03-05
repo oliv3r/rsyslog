@@ -29,13 +29,13 @@
 #include <stdint.h>
 #include <assert.h>
 
-#include "rsyslog.h"
-#include "module-template.h"
-#include "obj.h"
-#include "regexp.h"
-#include "errmsg.h"
-#include "hashtable.h"
-#include "hashtable_itr.h"
+#include "runtime/rsyslog.h"
+#include "runtime/module-template.h"
+#include "runtime/obj.h"
+#include "runtime/regexp.h"
+#include "runtime/errmsg.h"
+#include "runtime/hashtable.h"
+#include "runtime/hashtable_itr.h"
 
 MODULE_TYPE_LIB
 MODULE_TYPE_NOKEEP

@@ -48,13 +48,13 @@
 #include <assert.h>
 #include <string.h>
 
-#include "rsyslog.h"
-#include "net.h"
-#include "module-template.h"
-#include "obj.h"
-#include "errmsg.h"
-#include "netstrms.h"
-#include "netstrm.h"
+#include "runtime/rsyslog.h"
+#include "runtime/net.h"
+#include "runtime/module-template.h"
+#include "runtime/obj.h"
+#include "runtime/errmsg.h"
+#include "runtime/netstrms.h"
+#include "runtime/netstrm.h"
 
 /* static data */
 DEFobjStaticHelpers

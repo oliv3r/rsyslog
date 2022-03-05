@@ -27,7 +27,7 @@
  */
 #include "config.h"
 #include <stdlib.h>
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 
 int bReduceRepeatMsgs = 0;
 int bActExecWhenPrevSusp = 0;

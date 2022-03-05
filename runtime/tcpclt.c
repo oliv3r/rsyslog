@@ -36,13 +36,13 @@
 #if HAVE_FCNTL_H
 #include <fcntl.h>
 #endif
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "dirty.h"
-#include "syslogd-types.h"
-#include "net.h"
-#include "tcpclt.h"
-#include "module-template.h"
-#include "srUtils.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/net.h"
+#include "runtime/tcpclt.h"
+#include "runtime/module-template.h"
+#include "runtime/srUtils.h"
 
 MODULE_TYPE_LIB
 MODULE_TYPE_NOKEEP

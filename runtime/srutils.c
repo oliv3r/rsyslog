@@ -43,12 +43,12 @@
 #include <inttypes.h>
 #include <fcntl.h>
 
-#include "rsyslog.h"
-#include "srUtils.h"
-#include "obj.h"
-#include "errmsg.h"
-#include "glbl.h"
-#include "rsconf.h"
+#include "runtime/rsyslog.h"
+#include "runtime/srUtils.h"
+#include "runtime/obj.h"
+#include "runtime/errmsg.h"
+#include "runtime/glbl.h"
+#include "runtime/rsconf.h"
 
 #if _POSIX_TIMERS <= 0
 #include <sys/time.h>

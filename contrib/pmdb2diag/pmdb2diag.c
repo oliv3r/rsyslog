@@ -31,17 +31,17 @@
 #ifdef HAVE_SYS_TIME_H
 #	include <sys/time.h>
 #endif
-#include "rsyslog.h"
-#include "conf.h"
-#include "syslogd-types.h"
+#include "runtime/rsyslog.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
 #include "template.h"
-#include "msg.h"
-#include "module-template.h"
-#include "glbl.h"
-#include "errmsg.h"
-#include "parser.h"
-#include "datetime.h"
-#include "unicode-helper.h"
+#include "runtime/msg.h"
+#include "runtime/module-template.h"
+#include "runtime/glbl.h"
+#include "runtime/errmsg.h"
+#include "runtime/parser.h"
+#include "runtime/datetime.h"
+#include "runtime/unicode-helper.h"
 
 MODULE_TYPE_PARSER
 MODULE_TYPE_NOKEEP

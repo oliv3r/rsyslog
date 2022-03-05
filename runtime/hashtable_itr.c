@@ -1,7 +1,7 @@
 /* Copyright (C) 2002, 2004 Christopher Clark  <firstname.lastname@cl.cam.ac.uk> */
 
-#include "hashtable_private.h"
-#include "hashtable_itr.h"
+#include "runtime/hashtable_private.h"
+#include "runtime/hashtable_itr.h"
 #include <stdlib.h> /* defines NULL */
 
 /*****************************************************************************/

@@ -25,8 +25,8 @@
 #ifndef	ACTION_H_INCLUDED
 #define	ACTION_H_INCLUDED 1
 
-#include "syslogd-types.h"
-#include "queue.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/queue.h"
 
 /* external data */
 extern int glbliActionResumeRetryCount;

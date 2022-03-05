@@ -23,7 +23,7 @@
 #ifndef INCLUDED_NSD_OSSL_H
 #define INCLUDED_NSD_OSSL_H
 
-#include "nsd.h"
+#include "runtime/nsd.h"
 
 #define NSD_OSSL_MAX_RCVBUF 16 * 1024 + 1/* TLS RFC 8449: max size of buffer for message reception */
 

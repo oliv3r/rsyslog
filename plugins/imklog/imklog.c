@@ -40,7 +40,7 @@
  * limitations under the License.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <assert.h>
 #include <string.h>
@@ -50,19 +50,19 @@
 #include <sys/socket.h>
 
 #include "dirty.h"
-#include "cfsysline.h"
+#include "runtime/cfsysline.h"
 #include "grammar/parserif.h"
-#include "obj.h"
-#include "msg.h"
-#include "module-template.h"
-#include "datetime.h"
+#include "runtime/obj.h"
+#include "runtime/msg.h"
+#include "runtime/module-template.h"
+#include "runtime/datetime.h"
 #include "imklog.h"
-#include "net.h"
-#include "glbl.h"
-#include "prop.h"
-#include "errmsg.h"
-#include "unicode-helper.h"
-#include "ruleset.h"
+#include "runtime/net.h"
+#include "runtime/glbl.h"
+#include "runtime/prop.h"
+#include "runtime/errmsg.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/ruleset.h"
 
 
 MODULE_TYPE_INPUT

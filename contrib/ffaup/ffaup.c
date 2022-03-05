@@ -25,7 +25,7 @@
 #include <stdint.h>
 #include <stddef.h>
 #ifndef _AIX
-#include <typedefs.h>
+#include "runtime/typedefs.h"
 #endif
 #include <sys/types.h>
 #include <string.h>
@@ -35,9 +35,9 @@
 #include <faup/output.h>
 
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "grammar/parserif.h"
-#include "module-template.h"
+#include "runtime/module-template.h"
 #include "grammar/rainerscript.h"
 
 

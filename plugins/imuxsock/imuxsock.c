@@ -47,25 +47,25 @@
 #if defined(__FreeBSD__)
 	#include <sys/param.h>
 #endif
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "dirty.h"
-#include "cfsysline.h"
-#include "unicode-helper.h"
-#include "module-template.h"
-#include "srUtils.h"
-#include "errmsg.h"
-#include "net.h"
-#include "glbl.h"
-#include "msg.h"
-#include "parser.h"
-#include "prop.h"
-#include "debug.h"
-#include "ruleset.h"
-#include "unlimited_select.h"
-#include "statsobj.h"
-#include "datetime.h"
-#include "hashtable.h"
-#include "ratelimit.h"
+#include "runtime/cfsysline.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/module-template.h"
+#include "runtime/srUtils.h"
+#include "runtime/errmsg.h"
+#include "runtime/net.h"
+#include "runtime/glbl.h"
+#include "runtime/msg.h"
+#include "runtime/parser.h"
+#include "runtime/prop.h"
+#include "runtime/debug.h"
+#include "runtime/ruleset.h"
+#include "runtime/unlimited_select.h"
+#include "runtime/statsobj.h"
+#include "runtime/datetime.h"
+#include "runtime/hashtable.h"
+#include "runtime/ratelimit.h"
 
 
 MODULE_TYPE_INPUT
@@ -306,7 +306,7 @@ static struct cnfparamblk inppblk =
 	  inppdescr
 	};
 
-#include "im-helper.h" /* must be included AFTER the type definitions! */
+#include "runtime/im-helper.h" /* must be included AFTER the type definitions! */
 
 static int bLegacyCnfModGlobalsPermitted;/* are legacy module-global config parameters permitted? */
 

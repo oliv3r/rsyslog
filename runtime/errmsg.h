@@ -21,7 +21,7 @@
 #ifndef INCLUDED_ERRMSG_H
 #define INCLUDED_ERRMSG_H
 
-#include "obj-types.h"
+#include "runtime/obj-types.h"
 
 #define NO_ERRCODE -1
 

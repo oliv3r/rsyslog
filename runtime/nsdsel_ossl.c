@@ -31,15 +31,15 @@
 #include <openssl/ssl.h>
 #include <openssl/bio.h>
 
-#include "rsyslog.h"
-#include "module-template.h"
-#include "obj.h"
-#include "errmsg.h"
-#include "nsd.h"
-#include "nsd_ossl.h"
-#include "nsd_ptcp.h"
-#include "nsdsel_ptcp.h"
-#include "nsdsel_ossl.h"
+#include "runtime/rsyslog.h"
+#include "runtime/module-template.h"
+#include "runtime/obj.h"
+#include "runtime/errmsg.h"
+#include "runtime/nsd.h"
+#include "runtime/nsd_ossl.h"
+#include "runtime/nsd_ptcp.h"
+#include "runtime/nsdsel_ptcp.h"
+#include "runtime/nsdsel_ossl.h"
 
 /* static data */
 DEFobjStaticHelpers

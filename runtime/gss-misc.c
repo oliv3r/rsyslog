@@ -21,7 +21,7 @@
  * A copy of the GPL can be found in the file "COPYING" in this distribution.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
@@ -38,18 +38,18 @@
 #include <pthread.h>
 #include <gssapi/gssapi.h>
 #include "dirty.h"
-#include "syslogd-types.h"
-#include "srUtils.h"
-#include "net.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
+#include "runtime/net.h"
 #include "template.h"
-#include "msg.h"
-#include "module-template.h"
-#include "obj.h"
-#include "errmsg.h"
-#include "gss-misc.h"
-#include "debug.h"
-#include "glbl.h"
-#include "unlimited_select.h"
+#include "runtime/msg.h"
+#include "runtime/module-template.h"
+#include "runtime/obj.h"
+#include "runtime/errmsg.h"
+#include "runtime/gss-misc.h"
+#include "runtime/debug.h"
+#include "runtime/glbl.h"
+#include "runtime/unlimited_select.h"
 
 MODULE_TYPE_LIB
 MODULE_TYPE_NOKEEP

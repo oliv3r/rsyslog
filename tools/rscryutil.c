@@ -33,8 +33,8 @@
 #include <sys/stat.h>
 #include <gcrypt.h>
 
-#include "rsyslog.h"
-#include "libgcry.h"
+#include "runtime/rsyslog.h"
+#include "runtime/libgcry.h"
 
 
 static enum { MD_DECRYPT, MD_WRITE_KEYFILE

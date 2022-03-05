@@ -22,8 +22,8 @@
 #ifndef INCLUDED_TCPS_SESS_H
 #define INCLUDED_TCPS_SESS_H
 
-#include "obj.h"
-#include "prop.h"
+#include "runtime/obj.h"
+#include "runtime/prop.h"
 
 /* a forward-definition, we are somewhat cyclic */
 struct tcpsrv_s;

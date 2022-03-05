@@ -51,7 +51,7 @@
 #include <assert.h>
 #include <sys/strlog.h>
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "imklog.h"
 
 /* TODO: this define should be changed over time to the more generic

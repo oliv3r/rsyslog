@@ -33,10 +33,10 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#include "rsyslog.h"
-#include "obj.h"
-#include "srUtils.h"
-#include "var.h"
+#include "runtime/rsyslog.h"
+#include "runtime/obj.h"
+#include "runtime/srUtils.h"
+#include "runtime/var.h"
 
 /* static data */
 DEFobjStaticHelpers

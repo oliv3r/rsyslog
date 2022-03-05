@@ -37,8 +37,8 @@
 #include <ctype.h>
 #include <pcap.h>
 
-#include "rsyslog.h"
-#include "msg.h"
+#include "runtime/rsyslog.h"
+#include "runtime/msg.h"
 #include "dirty.h"
 
 #ifdef __FreeBSD__

@@ -22,11 +22,11 @@
 #include <sys/types.h>
 #include <assert.h>
 
-#include "rsyslog.h"
-#include "srUtils.h"
-#include "errmsg.h"
-#include "rsconf.h"
-#include "unicode-helper.h"
+#include "runtime/rsyslog.h"
+#include "runtime/srUtils.h"
+#include "runtime/errmsg.h"
+#include "runtime/rsconf.h"
+#include "runtime/unicode-helper.h"
 
 /* definitions for objects we access */
 DEFobjStaticHelpers

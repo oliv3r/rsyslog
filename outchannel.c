@@ -26,17 +26,17 @@
  */
 #include "config.h"
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
 #include <assert.h>
-#include "stringbuf.h"
+#include "runtime/stringbuf.h"
 #include "outchannel.h"
-#include "rsconf.h"
-#include "debug.h"
+#include "runtime/rsconf.h"
+#include "runtime/debug.h"
 
 /* Constructs a outchannel list object. Returns pointer to it
  * or NULL (if it fails).

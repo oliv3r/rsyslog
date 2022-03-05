@@ -29,15 +29,15 @@
 #include <sys/select.h>
 #include <gnutls/gnutls.h>
 
-#include "rsyslog.h"
-#include "module-template.h"
-#include "obj.h"
-#include "errmsg.h"
-#include "nsd.h"
-#include "nsd_gtls.h"
-#include "nsd_ptcp.h"
-#include "nsdsel_ptcp.h"
-#include "nsdsel_gtls.h"
+#include "runtime/rsyslog.h"
+#include "runtime/module-template.h"
+#include "runtime/obj.h"
+#include "runtime/errmsg.h"
+#include "runtime/nsd.h"
+#include "runtime/nsd_gtls.h"
+#include "runtime/nsd_ptcp.h"
+#include "runtime/nsdsel_ptcp.h"
+#include "runtime/nsdsel_gtls.h"
 
 /* static data */
 DEFobjStaticHelpers

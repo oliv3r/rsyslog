@@ -33,8 +33,8 @@
 #include <fcntl.h>
 #include <errno.h>
 
-#include "rsyslog.h" /* we need data typedefs */
-#include "libgcry.h"
+#include "runtime/rsyslog.h" /* we need data typedefs */
+#include "runtime/libgcry.h"
 
 
 /* read a key from a key file

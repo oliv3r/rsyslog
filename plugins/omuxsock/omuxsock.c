@@ -23,7 +23,7 @@
  * limitations under the License.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
@@ -34,15 +34,15 @@
 #include <assert.h>
 #include <errno.h>
 #include <unistd.h>
-#include "conf.h"
-#include "srUtils.h"
+#include "runtime/conf.h"
+#include "runtime/srUtils.h"
 #include "template.h"
-#include "msg.h"
-#include "cfsysline.h"
-#include "module-template.h"
-#include "glbl.h"
-#include "errmsg.h"
-#include "unicode-helper.h"
+#include "runtime/msg.h"
+#include "runtime/cfsysline.h"
+#include "runtime/module-template.h"
+#include "runtime/glbl.h"
+#include "runtime/errmsg.h"
+#include "runtime/unicode-helper.h"
 
 MODULE_TYPE_OUTPUT
 MODULE_TYPE_NOKEEP

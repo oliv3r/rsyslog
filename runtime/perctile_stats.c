@@ -22,14 +22,14 @@
 #include <sys/types.h>
 #include <assert.h>
 
-#include "unicode-helper.h"
-#include "rsyslog.h"
-#include "rsconf.h"
-#include "errmsg.h"
-#include "perctile_stats.h"
-#include "hashtable_itr.h"
-#include "perctile_ringbuf.h"
-#include "datetime.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/rsyslog.h"
+#include "runtime/rsconf.h"
+#include "runtime/errmsg.h"
+#include "runtime/perctile_stats.h"
+#include "runtime/hashtable_itr.h"
+#include "runtime/perctile_ringbuf.h"
+#include "runtime/datetime.h"
 
 #include <stdio.h>
 #include <pthread.h>

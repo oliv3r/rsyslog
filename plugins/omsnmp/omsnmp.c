@@ -21,7 +21,7 @@
  * limitations under the License.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
@@ -33,15 +33,15 @@
 #include <netdb.h>
 #include <ctype.h>
 #include <assert.h>
-#include "conf.h"
-#include "syslogd-types.h"
-#include "cfsysline.h"
-#include "module-template.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/cfsysline.h"
+#include "runtime/module-template.h"
 
 #include <net-snmp/net-snmp-config.h>
 #include <net-snmp/net-snmp-includes.h>
 #include "omsnmp.h"
-#include "errmsg.h"
+#include "runtime/errmsg.h"
 #include "grammar/parserif.h"
 
 MODULE_TYPE_OUTPUT

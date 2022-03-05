@@ -22,7 +22,7 @@
 #ifndef INCLUDED_STRMS_SESS_H
 #define INCLUDED_STRMS_SESS_H
 
-#include "obj.h"
+#include "runtime/obj.h"
 
 /* a forward-definition, we are somewhat cyclic */
 struct strmsrv_s;

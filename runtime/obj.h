@@ -43,9 +43,9 @@
 #ifndef OBJ_H_INCLUDED
 #define OBJ_H_INCLUDED
 
-#include "obj-types.h"
-#include "var.h"
-#include "stream.h"
+#include "runtime/obj-types.h"
+#include "runtime/var.h"
+#include "runtime/stream.h"
 
 /* macros */
 /* the following one is a helper that prevents us from writing the

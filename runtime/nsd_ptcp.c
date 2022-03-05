@@ -38,22 +38,22 @@
 #include <unistd.h>
 #include <netinet/tcp.h>
 
-#include "rsyslog.h"
-#include "syslogd-types.h"
-#include "module-template.h"
+#include "runtime/rsyslog.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/module-template.h"
 #include "parse.h"
-#include "srUtils.h"
-#include "obj.h"
-#include "errmsg.h"
-#include "net.h"
-#include "netstrms.h"
-#include "netstrm.h"
-#include "nsdsel_ptcp.h"
-#include "nsdpoll_ptcp.h"
-#include "nsd_ptcp.h"
-#include "prop.h"
-#include "dnscache.h"
-#include "rsconf.h"
+#include "runtime/srUtils.h"
+#include "runtime/obj.h"
+#include "runtime/errmsg.h"
+#include "runtime/net.h"
+#include "runtime/netstrms.h"
+#include "runtime/netstrm.h"
+#include "runtime/nsdsel_ptcp.h"
+#include "runtime/nsdpoll_ptcp.h"
+#include "runtime/nsd_ptcp.h"
+#include "runtime/prop.h"
+#include "runtime/dnscache.h"
+#include "runtime/rsconf.h"
 
 MODULE_TYPE_LIB
 MODULE_TYPE_NOKEEP

@@ -80,16 +80,16 @@
 /* how many objects are supported by rsyslogd? */
 #define OBJ_NUM_IDS 100 /* TODO change to a linked list?  info: 16 were currently in use 2008-02-29 */
 
-#include "rsyslog.h"
-#include "syslogd-types.h"
-#include "srUtils.h"
-#include "obj.h"
-#include "stream.h"
-#include "modules.h"
-#include "errmsg.h"
-#include "cfsysline.h"
-#include "unicode-helper.h"
-#include "datetime.h"
+#include "runtime/rsyslog.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
+#include "runtime/obj.h"
+#include "runtime/stream.h"
+#include "runtime/modules.h"
+#include "runtime/errmsg.h"
+#include "runtime/cfsysline.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/datetime.h"
 
 /* static data */
 DEFobjCurrIf(obj) /* we define our own interface, as this is expected by some macros! */

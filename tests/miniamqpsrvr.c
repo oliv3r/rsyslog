@@ -37,7 +37,7 @@
 #include <netinet/in.h>
 #endif
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 
 
 #include <amqp.h>

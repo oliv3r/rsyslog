@@ -19,8 +19,8 @@
 #ifndef INCLUDED_PERCTILE_STATS_H
 #define INCLUDED_PERCTILE_STATS_H
 
-#include "hashtable.h"
-#include "statsobj.h"
+#include "runtime/hashtable.h"
+#include "runtime/statsobj.h"
 
 struct perctile_ctr_s {
 	// percentile [0,100]

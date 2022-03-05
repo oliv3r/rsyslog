@@ -40,8 +40,8 @@
 #include <sys/stat.h>
 #include <unistd.h>
 #include <fcntl.h>
-#include "rsyslog.h"
-#include "srUtils.h"
+#include "runtime/rsyslog.h"
+#include "runtime/srUtils.h"
 #include "grammar/parserif.h"
 
 PRAGMA_IGNORE_Wsign_compare

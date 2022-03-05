@@ -36,19 +36,19 @@
 #include <sys/socket.h>
 #include <signal.h>
 #include <librelp.h>
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "dirty.h"
-#include "errmsg.h"
-#include "cfsysline.h"
-#include "module-template.h"
-#include "net.h"
-#include "msg.h"
-#include "unicode-helper.h"
-#include "prop.h"
-#include "ruleset.h"
-#include "glbl.h"
-#include "statsobj.h"
-#include "srUtils.h"
+#include "runtime/errmsg.h"
+#include "runtime/cfsysline.h"
+#include "runtime/module-template.h"
+#include "runtime/net.h"
+#include "runtime/msg.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/prop.h"
+#include "runtime/ruleset.h"
+#include "runtime/glbl.h"
+#include "runtime/statsobj.h"
+#include "runtime/srUtils.h"
 #include "grammar/parserif.h"
 
 MODULE_TYPE_INPUT
@@ -174,7 +174,7 @@ static struct cnfparamblk inppblk =
 	  inppdescr
 	};
 
-#include "im-helper.h" /* must be included AFTER the type definitions! */
+#include "runtime/im-helper.h" /* must be included AFTER the type definitions! */
 static int bLegacyCnfModGlobalsPermitted;/* are legacy module-global config parameters permitted? */
 
 /* ------------------------------ callbacks ------------------------------ */

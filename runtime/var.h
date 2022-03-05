@@ -21,7 +21,7 @@
 #ifndef INCLUDED_VAR_H
 #define INCLUDED_VAR_H
 
-#include "stringbuf.h"
+#include "runtime/stringbuf.h"
 
 /* data types */
 typedef enum {

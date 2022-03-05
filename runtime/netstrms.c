@@ -29,15 +29,15 @@
 #include <assert.h>
 #include <errno.h>
 
-#include "rsyslog.h"
-#include "module-template.h"
-#include "obj.h"
-#include "nsd.h"
-#include "netstrm.h"
-#include "nssel.h"
-#include "nspoll.h"
-#include "netstrms.h"
-#include "rsconf.h"
+#include "runtime/rsyslog.h"
+#include "runtime/module-template.h"
+#include "runtime/obj.h"
+#include "runtime/nsd.h"
+#include "runtime/netstrm.h"
+#include "runtime/nssel.h"
+#include "runtime/nspoll.h"
+#include "runtime/netstrms.h"
+#include "runtime/rsconf.h"
 
 MODULE_TYPE_LIB
 MODULE_TYPE_NOKEEP

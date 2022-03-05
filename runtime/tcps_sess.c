@@ -34,22 +34,22 @@
 #include <errno.h>
 #include <ctype.h>
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "dirty.h"
-#include "unicode-helper.h"
-#include "module-template.h"
-#include "net.h"
-#include "tcpsrv.h"
-#include "tcps_sess.h"
-#include "obj.h"
-#include "errmsg.h"
-#include "netstrm.h"
-#include "msg.h"
-#include "datetime.h"
-#include "prop.h"
-#include "ratelimit.h"
-#include "debug.h"
-#include "rsconf.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/module-template.h"
+#include "runtime/net.h"
+#include "runtime/tcpsrv.h"
+#include "runtime/tcps_sess.h"
+#include "runtime/obj.h"
+#include "runtime/errmsg.h"
+#include "runtime/netstrm.h"
+#include "runtime/msg.h"
+#include "runtime/datetime.h"
+#include "runtime/prop.h"
+#include "runtime/ratelimit.h"
+#include "runtime/debug.h"
+#include "runtime/rsconf.h"
 
 
 /* static data */

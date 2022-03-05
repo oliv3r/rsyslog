@@ -41,7 +41,7 @@
  * limitations under the License.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
@@ -51,11 +51,11 @@
 #include <assert.h>
 #include <pthread.h>
 #include "dirty.h"
-#include "syslogd-types.h"
-#include "module-template.h"
-#include "conf.h"
-#include "cfsysline.h"
-#include "srUtils.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/module-template.h"
+#include "runtime/conf.h"
+#include "runtime/cfsysline.h"
+#include "runtime/srUtils.h"
 
 MODULE_TYPE_OUTPUT
 MODULE_TYPE_NOKEEP

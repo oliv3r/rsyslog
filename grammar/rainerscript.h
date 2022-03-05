@@ -23,7 +23,7 @@
 #include <sys/types.h>
 #include <json.h>
 #include <regex.h>
-#include "typedefs.h"
+#include "runtime/typedefs.h"
 
 #define LOG_NFACILITIES 24+1 /* we copy&paste this as including rsyslog.h gets us in off64_t trouble... :-( */
 #define CNFFUNC_MAX_ARGS 32

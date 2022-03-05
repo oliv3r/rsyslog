@@ -28,13 +28,13 @@
 #include <stdint.h>
 #include <errno.h>
 
-#include "rsyslog.h"
-#include "unicode-helper.h"
-#include "errmsg.h"
+#include "runtime/rsyslog.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/errmsg.h"
 #include "grammar/parserif.h"
 #include "grammar/rainerscript.h"
-#include "srUtils.h"
-#include "rsconf.h"
+#include "runtime/srUtils.h"
+#include "runtime/rsconf.h"
 
 
 static struct cnfparamdescr timezonecnfparamdescr[] = {

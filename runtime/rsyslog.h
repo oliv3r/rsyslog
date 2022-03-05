@@ -83,7 +83,7 @@
 /* src end */
 
 #include <pthread.h>
-#include "typedefs.h"
+#include "runtime/typedefs.h"
 
 #if defined(__GNUC__)
 	#define PRAGMA_INGORE_Wswitch_enum	_Pragma("GCC diagnostic ignored \"-Wswitch-enum\"")
@@ -737,8 +737,8 @@ struct actWrkrIParams {
 #define LOCK_MUTEX		1
 
 
-#include "debug.h"
-#include "obj.h"
+#include "runtime/debug.h"
+#include "runtime/obj.h"
 
 /* the variable below is a trick: before we can init the runtime, the caller
  * may want to set a module load path. We can not do this via the glbl class

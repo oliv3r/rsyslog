@@ -25,7 +25,7 @@
 #ifndef	SYSLOGD_TYPES_INCLUDED
 #define	SYSLOGD_TYPES_INCLUDED 1
 
-#include "stringbuf.h"
+#include "runtime/stringbuf.h"
 #include <sys/param.h>
 
 /* we use RSTRUE/FALSE to prevent name claches with other packages */

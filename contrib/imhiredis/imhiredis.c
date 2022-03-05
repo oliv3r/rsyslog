@@ -39,21 +39,21 @@
 #include <hiredis/adapters/libevent.h>
 #include <event2/thread.h>
 
-#include "rsyslog.h"
-#include "conf.h"
-#include "syslogd-types.h"
-#include "srUtils.h"
+#include "runtime/rsyslog.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
 #include "template.h"
-#include "module-template.h"
-#include "errmsg.h"
-#include "atomic.h"
-#include "statsobj.h"
-#include "unicode-helper.h"
-#include "prop.h"
-#include "ruleset.h"
-#include "glbl.h"
-#include "cfsysline.h"
-#include "msg.h"
+#include "runtime/module-template.h"
+#include "runtime/errmsg.h"
+#include "runtime/atomic.h"
+#include "runtime/statsobj.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/prop.h"
+#include "runtime/ruleset.h"
+#include "runtime/glbl.h"
+#include "runtime/cfsysline.h"
+#include "runtime/msg.h"
 #include "dirty.h"
 
 MODULE_TYPE_INPUT
@@ -161,7 +161,7 @@ static struct cnfparamblk inppblk =
 struct timeval glblRedisConnectTimeout = { 3, 0 }; /* 3 seconds */
 
 
-#include "im-helper.h" /* must be included AFTER the type definitions! */
+#include "runtime/im-helper.h" /* must be included AFTER the type definitions! */
 
 
 /* forward references */

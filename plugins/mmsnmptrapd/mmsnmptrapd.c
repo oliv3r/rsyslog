@@ -27,7 +27,7 @@
  * A copy of the GPL can be found in the file "COPYING" in this distribution.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
@@ -37,14 +37,14 @@
 #include <errno.h>
 #include <unistd.h>
 #include <ctype.h>
-#include "conf.h"
-#include "msg.h"
-#include "syslogd-types.h"
+#include "runtime/conf.h"
+#include "runtime/msg.h"
+#include "runtime/syslogd-types.h"
 #include "template.h"
-#include "module-template.h"
-#include "errmsg.h"
-#include "cfsysline.h"
-#include "unicode-helper.h"
+#include "runtime/module-template.h"
+#include "runtime/errmsg.h"
+#include "runtime/cfsysline.h"
+#include "runtime/unicode-helper.h"
 #include "dirty.h"
 
 MODULE_TYPE_OUTPUT

@@ -25,7 +25,7 @@
  */
 #include "config.h"
 #ifdef USE_GSSAPI
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
@@ -42,19 +42,19 @@
 #include <pthread.h>
 #include <gssapi/gssapi.h>
 #include "dirty.h"
-#include "conf.h"
-#include "syslogd-types.h"
-#include "srUtils.h"
-#include "net.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
+#include "runtime/net.h"
 #include "template.h"
-#include "msg.h"
-#include "cfsysline.h"
-#include "module-template.h"
-#include "gss-misc.h"
-#include "tcpclt.h"
-#include "glbl.h"
-#include "errmsg.h"
-#include "rsconf.h"
+#include "runtime/msg.h"
+#include "runtime/cfsysline.h"
+#include "runtime/module-template.h"
+#include "runtime/gss-misc.h"
+#include "runtime/tcpclt.h"
+#include "runtime/glbl.h"
+#include "runtime/errmsg.h"
+#include "runtime/rsconf.h"
 
 MODULE_TYPE_OUTPUT
 MODULE_TYPE_NOKEEP

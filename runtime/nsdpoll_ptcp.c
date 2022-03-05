@@ -34,14 +34,14 @@
 #	include <sys/epoll.h>
 #endif
 
-#include "rsyslog.h"
-#include "module-template.h"
-#include "obj.h"
-#include "errmsg.h"
-#include "srUtils.h"
-#include "nspoll.h"
-#include "nsd_ptcp.h"
-#include "nsdpoll_ptcp.h"
+#include "runtime/rsyslog.h"
+#include "runtime/module-template.h"
+#include "runtime/obj.h"
+#include "runtime/errmsg.h"
+#include "runtime/srUtils.h"
+#include "runtime/nspoll.h"
+#include "runtime/nsd_ptcp.h"
+#include "runtime/nsdpoll_ptcp.h"
 
 /* static data */
 DEFobjStaticHelpers

@@ -25,7 +25,7 @@
  * limitations under the License.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
@@ -34,16 +34,16 @@
 #include <signal.h>
 #include <errno.h>
 #include <unistd.h>
-#include "conf.h"
-#include "cfsysline.h"
+#include "runtime/conf.h"
+#include "runtime/cfsysline.h"
 #include <json.h>
-#include "syslogd-types.h"
-#include "srUtils.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
 #include "template.h"
-#include "module-template.h"
-#include "errmsg.h"
+#include "runtime/module-template.h"
+#include "runtime/errmsg.h"
 #include <systemd/sd-journal.h>
-#include "unicode-helper.h"
+#include "runtime/unicode-helper.h"
 #include <sys/uio.h>
 #include "grammar/parserif.h"
 

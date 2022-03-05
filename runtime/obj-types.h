@@ -27,8 +27,8 @@
 #ifndef OBJ_TYPES_H_INCLUDED
 #define OBJ_TYPES_H_INCLUDED
 
-#include "stringbuf.h"
-#include "syslogd-types.h"
+#include "runtime/stringbuf.h"
+#include "runtime/syslogd-types.h"
 
 /* property types for obj[De]Serialize() */
 typedef enum {
@@ -439,6 +439,6 @@ rsRetVal objName##ClassExit(void) \
 /* ------------------------------ end object loader system ------------------------------ */
 
 
-#include "modules.h"
+#include "runtime/modules.h"
 
 #endif /* #ifndef OBJ_TYPES_H_INCLUDED */

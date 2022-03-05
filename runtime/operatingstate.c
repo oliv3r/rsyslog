@@ -31,10 +31,10 @@
 #include <string.h>
 #include <unistd.h>
 
-#include "rsyslog.h"
-#include "errmsg.h"
-#include "operatingstate.h"
-#include "rsconf.h"
+#include "runtime/rsyslog.h"
+#include "runtime/errmsg.h"
+#include "runtime/operatingstate.h"
+#include "runtime/rsconf.h"
 
 #ifndef O_LARGEFILE
 #define O_LARGEFILE 0

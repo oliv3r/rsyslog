@@ -24,7 +24,7 @@
 #define DEBUG_H_INCLUDED
 
 #include <pthread.h>
-#include "obj-types.h"
+#include "runtime/obj-types.h"
 
 /* some settings for various debug modes */
 #define DEBUG_OFF	0

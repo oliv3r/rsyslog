@@ -23,9 +23,9 @@
 #define INCLUDED_NSD_PTCP_H
 
 #include <sys/socket.h>
-#include "tcpsrv.h"
+#include "runtime/tcpsrv.h"
 
-#include "nsd.h"
+#include "runtime/nsd.h"
 typedef nsd_if_t nsd_ptcp_if_t; /* we just *implement* this interface */
 
 /* the nsd_ptcp object */

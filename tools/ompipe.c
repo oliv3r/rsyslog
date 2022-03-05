@@ -43,17 +43,17 @@
 #include <unistd.h>
 #include <sys/file.h>
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "syslogd.h"
-#include "syslogd-types.h"
-#include "srUtils.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
 #include "template.h"
 #include "ompipe.h"
 #include "omfile.h" /* for dirty trick: access to $ActionFileDefaultTemplate value */
-#include "cfsysline.h"
-#include "module-template.h"
-#include "conf.h"
-#include "errmsg.h"
+#include "runtime/cfsysline.h"
+#include "runtime/module-template.h"
+#include "runtime/conf.h"
+#include "runtime/errmsg.h"
 
 MODULE_TYPE_OUTPUT
 MODULE_TYPE_NOKEEP

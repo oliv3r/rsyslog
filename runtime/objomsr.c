@@ -28,8 +28,8 @@
 #include <assert.h>
 #include <string.h>
 
-#include "rsyslog.h"
-#include "objomsr.h"
+#include "runtime/rsyslog.h"
+#include "runtime/objomsr.h"
 
 
 /* destructor

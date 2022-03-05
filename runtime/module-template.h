@@ -25,9 +25,9 @@
 #ifndef	MODULE_TEMPLATE_H_INCLUDED
 #define	MODULE_TEMPLATE_H_INCLUDED 1
 
-#include "modules.h"
-#include "obj.h"
-#include "objomsr.h"
+#include "runtime/modules.h"
+#include "runtime/obj.h"
+#include "runtime/objomsr.h"
 #include "threads.h"
 
 /* macro to define standard output-module static data members

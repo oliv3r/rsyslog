@@ -27,7 +27,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <sys/select.h>
-#include "glbl.h"
+#include "runtime/glbl.h"
 
 #ifdef USE_UNLIMITED_SELECT
 # undef FD_ZERO

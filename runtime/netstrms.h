@@ -24,7 +24,7 @@
 #ifndef INCLUDED_NETSTRMS_H
 #define INCLUDED_NETSTRMS_H
 
-#include "nsd.h" /* we need our driver interface to be defined */
+#include "runtime/nsd.h" /* we need our driver interface to be defined */
 
 /* the netstrms object */
 struct netstrms_s {

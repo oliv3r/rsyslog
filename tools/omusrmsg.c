@@ -56,14 +56,14 @@
 #ifdef HAVE_PATHS_H
 #include <paths.h>
 #endif
-#include "rsyslog.h"
-#include "srUtils.h"
-#include "stringbuf.h"
-#include "syslogd-types.h"
-#include "conf.h"
+#include "runtime/rsyslog.h"
+#include "runtime/srUtils.h"
+#include "runtime/stringbuf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/conf.h"
 #include "omusrmsg.h"
-#include "module-template.h"
-#include "errmsg.h"
+#include "runtime/module-template.h"
+#include "runtime/errmsg.h"
 
 
 /* portability: */

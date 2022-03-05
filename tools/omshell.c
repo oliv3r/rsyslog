@@ -38,18 +38,18 @@
  * limitations under the License.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
-#include "conf.h"
-#include "syslogd-types.h"
-#include "srUtils.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
 #include "omshell.h"
-#include "module-template.h"
-#include "errmsg.h"
+#include "runtime/module-template.h"
+#include "runtime/errmsg.h"
 
 MODULE_TYPE_OUTPUT
 MODULE_TYPE_NOKEEP

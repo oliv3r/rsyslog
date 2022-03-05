@@ -69,11 +69,11 @@
 #include <pthread.h>
 #include <stdint.h>
 #include <time.h>
-#include "obj-types.h"
-#include "glbl.h"
-#include "stream.h"
-#include "zlibw.h"
-#include "cryprov.h"
+#include "runtime/obj-types.h"
+#include "runtime/glbl.h"
+#include "runtime/stream.h"
+#include "runtime/zlibw.h"
+#include "runtime/cryprov.h"
 
 /* stream types */
 typedef enum {

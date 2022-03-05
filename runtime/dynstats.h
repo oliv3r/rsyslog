@@ -18,7 +18,7 @@
 #ifndef INCLUDED_DYNSTATS_H
 #define INCLUDED_DYNSTATS_H
 
-#include "hashtable.h"
+#include "runtime/hashtable.h"
 
 typedef struct hashtable htable;
 

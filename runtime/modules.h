@@ -35,7 +35,7 @@
 #ifndef	MODULES_H_INCLUDED
 #define	MODULES_H_INCLUDED 1
 
-#include "objomsr.h"
+#include "runtime/objomsr.h"
 #include "grammar/rainerscript.h"
 
 

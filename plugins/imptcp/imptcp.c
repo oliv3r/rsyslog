@@ -59,22 +59,22 @@
 #if HAVE_FCNTL_H
 #include <fcntl.h>
 #endif
-#include "rsyslog.h"
-#include "cfsysline.h"
-#include "prop.h"
+#include "runtime/rsyslog.h"
+#include "runtime/cfsysline.h"
+#include "runtime/prop.h"
 #include "dirty.h"
-#include "module-template.h"
-#include "unicode-helper.h"
-#include "glbl.h"
-#include "errmsg.h"
-#include "srUtils.h"
-#include "datetime.h"
-#include "ruleset.h"
-#include "msg.h"
+#include "runtime/module-template.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/glbl.h"
+#include "runtime/errmsg.h"
+#include "runtime/srUtils.h"
+#include "runtime/datetime.h"
+#include "runtime/ruleset.h"
+#include "runtime/msg.h"
 #include "grammar/parserif.h"
-#include "statsobj.h"
-#include "ratelimit.h"
-#include "net.h" /* for permittedPeers, may be removed when this is removed */
+#include "runtime/statsobj.h"
+#include "runtime/ratelimit.h"
+#include "runtime/net.h" /* for permittedPeers, may be removed when this is removed */
 
 /* the define is from tcpsrv.h, we need to find a new (but easier!!!) abstraction layer some time ... */
 #define TCPSRV_NO_ADDTL_DELIMITER -1 /* specifies that no additional delimiter is to be used in TCP framing */
@@ -236,7 +236,7 @@ static struct cnfparamblk inppblk =
 	  inppdescr
 	};
 
-#include "im-helper.h" /* must be included AFTER the type definitions! */
+#include "runtime/im-helper.h" /* must be included AFTER the type definitions! */
 static int bLegacyCnfModGlobalsPermitted;/* are legacy module-global config parameters permitted? */
 
 /* data elements describing our running config */

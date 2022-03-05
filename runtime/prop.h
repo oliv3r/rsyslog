@@ -22,7 +22,7 @@
  */
 #ifndef INCLUDED_PROP_H
 #define INCLUDED_PROP_H
-#include "atomic.h"
+#include "runtime/atomic.h"
 
 /* the prop object */
 struct prop_s {

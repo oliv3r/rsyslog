@@ -47,22 +47,22 @@
 #include <errno.h>
 #include <inttypes.h>
 
-#include "rsyslog.h"
-#include "queue.h"
-#include "stringbuf.h"
-#include "srUtils.h"
-#include "obj.h"
-#include "wtp.h"
-#include "wti.h"
-#include "msg.h"
-#include "obj.h"
-#include "atomic.h"
-#include "errmsg.h"
-#include "datetime.h"
-#include "unicode-helper.h"
-#include "statsobj.h"
+#include "runtime/rsyslog.h"
+#include "runtime/queue.h"
+#include "runtime/stringbuf.h"
+#include "runtime/srUtils.h"
+#include "runtime/obj.h"
+#include "runtime/wtp.h"
+#include "runtime/wti.h"
+#include "runtime/msg.h"
+#include "runtime/obj.h"
+#include "runtime/atomic.h"
+#include "runtime/errmsg.h"
+#include "runtime/datetime.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/statsobj.h"
 #include "grammar/parserif.h"
-#include "rsconf.h"
+#include "runtime/rsconf.h"
 
 #ifdef OS_SOLARIS
 #	include <sched.h>

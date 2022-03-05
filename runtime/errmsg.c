@@ -38,14 +38,14 @@
 #include <string.h>
 #include <unistd.h>
 
-#include "rsyslog.h"
-#include "obj.h"
-#include "msg.h"
-#include "errmsg.h"
-#include "operatingstate.h"
-#include "srUtils.h"
-#include "stringbuf.h"
-#include "rsconf.h"
+#include "runtime/rsyslog.h"
+#include "runtime/obj.h"
+#include "runtime/msg.h"
+#include "runtime/errmsg.h"
+#include "runtime/operatingstate.h"
+#include "runtime/srUtils.h"
+#include "runtime/stringbuf.h"
+#include "runtime/rsconf.h"
 
 /* static data */
 #ifndef O_LARGEFILE

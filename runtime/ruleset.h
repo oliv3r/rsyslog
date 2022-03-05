@@ -23,9 +23,9 @@
 #ifndef INCLUDED_RULESET_H
 #define INCLUDED_RULESET_H
 
-#include "queue.h"
-#include "linkedlist.h"
-#include "rsconf.h"
+#include "runtime/queue.h"
+#include "runtime/linkedlist.h"
+#include "runtime/rsconf.h"
 
 /* the ruleset object */
 struct ruleset_s {

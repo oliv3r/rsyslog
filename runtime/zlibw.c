@@ -26,10 +26,10 @@
 #include <assert.h>
 #include <zlib.h>
 
-#include "rsyslog.h"
-#include "module-template.h"
-#include "obj.h"
-#include "zlibw.h"
+#include "runtime/rsyslog.h"
+#include "runtime/module-template.h"
+#include "runtime/obj.h"
+#include "runtime/zlibw.h"
 
 MODULE_TYPE_LIB
 MODULE_TYPE_NOKEEP

@@ -39,16 +39,16 @@
 #include <pthread.h>
 #include <poll.h>
 
-#include "rsyslog.h"
-#include "conf.h"
-#include "syslogd-types.h"
-#include "srUtils.h"
+#include "runtime/rsyslog.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
 #include "template.h"
-#include "module-template.h"
-#include "errmsg.h"
-#include "cfsysline.h"
-#include "glbl.h"
-#include "rsconf.h"
+#include "runtime/module-template.h"
+#include "runtime/errmsg.h"
+#include "runtime/cfsysline.h"
+#include "runtime/glbl.h"
+#include "runtime/rsconf.h"
 
 MODULE_TYPE_OUTPUT
 MODULE_TYPE_NOKEEP

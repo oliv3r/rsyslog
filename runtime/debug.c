@@ -49,10 +49,10 @@
 #include <sys/time.h>
 #endif
 
-#include "rsyslog.h"
-#include "debug.h"
-#include "cfsysline.h"
-#include "obj.h"
+#include "runtime/rsyslog.h"
+#include "runtime/debug.h"
+#include "runtime/cfsysline.h"
+#include "runtime/obj.h"
 
 
 /* static data (some time to be replaced) */

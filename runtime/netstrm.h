@@ -24,8 +24,8 @@
 #ifndef INCLUDED_NETSTRM_H
 #define INCLUDED_NETSTRM_H
 
-#include "tcpsrv.h"
-#include "netstrms.h"
+#include "runtime/tcpsrv.h"
+#include "runtime/netstrms.h"
 
 /* the netstrm object */
 struct netstrm_s {

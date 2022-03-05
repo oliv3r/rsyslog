@@ -45,7 +45,7 @@
  * A copy of the GPL can be found in the file "COPYING" in this distribution.
  */
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 
 #include <unistd.h>
 #include <stdlib.h>
@@ -88,20 +88,20 @@
 #include <paths.h>
 #endif
 
-#include "srUtils.h"
-#include "stringbuf.h"
-#include "syslogd-types.h"
+#include "runtime/srUtils.h"
+#include "runtime/stringbuf.h"
+#include "runtime/syslogd-types.h"
 #include "template.h"
 #include "outchannel.h"
 #include "syslogd.h"
 
-#include "msg.h"
+#include "runtime/msg.h"
 #include "iminternal.h"
 #include "threads.h"
-#include "parser.h"
-#include "unicode-helper.h"
-#include "dnscache.h"
-#include "ratelimit.h"
+#include "runtime/parser.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/dnscache.h"
+#include "runtime/ratelimit.h"
 
 #ifndef HAVE_SETSID
 /* stems back to sysklogd in whole */

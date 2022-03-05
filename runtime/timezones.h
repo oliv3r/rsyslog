@@ -21,7 +21,7 @@
 #ifndef INCLUDED_TIMEZONES_H
 #define INCLUDED_TIMEZONES_H
 
-#include "rsconf.h"
+#include "runtime/rsconf.h"
 
 /* timezone specific parameters*/
 struct timezones_s {

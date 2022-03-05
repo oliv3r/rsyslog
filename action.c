@@ -98,23 +98,23 @@
 #include <unistd.h>
 #include <json.h>
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "dirty.h"
 #include "template.h"
 #include "action.h"
-#include "modules.h"
-#include "cfsysline.h"
-#include "srUtils.h"
-#include "errmsg.h"
-#include "batch.h"
-#include "wti.h"
-#include "rsconf.h"
-#include "datetime.h"
-#include "unicode-helper.h"
-#include "atomic.h"
-#include "ruleset.h"
+#include "runtime/modules.h"
+#include "runtime/cfsysline.h"
+#include "runtime/srUtils.h"
+#include "runtime/errmsg.h"
+#include "runtime/batch.h"
+#include "runtime/wti.h"
+#include "runtime/rsconf.h"
+#include "runtime/datetime.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/atomic.h"
+#include "runtime/ruleset.h"
 #include "grammar/parserif.h"
-#include "statsobj.h"
+#include "runtime/statsobj.h"
 
 /* AIXPORT : cs renamed to legacy_cs as clashes with libpthreads variable in complete file*/
 #ifdef _AIX

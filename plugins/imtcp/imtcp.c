@@ -52,18 +52,18 @@
 #if HAVE_FCNTL_H
 #include <fcntl.h>
 #endif
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "dirty.h"
-#include "cfsysline.h"
-#include "module-template.h"
-#include "unicode-helper.h"
-#include "net.h"
-#include "netstrm.h"
-#include "errmsg.h"
-#include "tcpsrv.h"
-#include "ruleset.h"
+#include "runtime/cfsysline.h"
+#include "runtime/module-template.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/net.h"
+#include "runtime/netstrm.h"
+#include "runtime/errmsg.h"
+#include "runtime/tcpsrv.h"
+#include "runtime/ruleset.h"
 #include "grammar/rainerscript.h"
-#include "net.h"
+#include "runtime/net.h"
 #include "grammar/parserif.h"
 
 MODULE_TYPE_INPUT
@@ -269,7 +269,7 @@ static struct cnfparamblk inppblk =
 	  inppdescr
 	};
 
-#include "im-helper.h" /* must be included AFTER the type definitions! */
+#include "runtime/im-helper.h" /* must be included AFTER the type definitions! */
 
 static int bLegacyCnfModGlobalsPermitted;/* are legacy module-global config parameters permitted? */
 

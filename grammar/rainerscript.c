@@ -37,24 +37,24 @@
 #include <libestr.h>
 #include <time.h>
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "grammar/rainerscript.h"
-#include "conf.h"
+#include "runtime/conf.h"
 #include "grammar/parserif.h"
 #include "parse.h"
-#include "rsconf.h"
+#include "runtime/rsconf.h"
 #include "grammar.h"
-#include "queue.h"
-#include "srUtils.h"
-#include "regexp.h"
-#include "datetime.h"
-#include "obj.h"
-#include "modules.h"
-#include "ruleset.h"
-#include "msg.h"
-#include "wti.h"
-#include "unicode-helper.h"
-#include "errmsg.h"
+#include "runtime/queue.h"
+#include "runtime/srUtils.h"
+#include "runtime/regexp.h"
+#include "runtime/datetime.h"
+#include "runtime/obj.h"
+#include "runtime/modules.h"
+#include "runtime/ruleset.h"
+#include "runtime/msg.h"
+#include "runtime/wti.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/errmsg.h"
 
 PRAGMA_INGORE_Wswitch_enum
 

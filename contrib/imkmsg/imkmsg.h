@@ -22,7 +22,7 @@
 #ifndef	IMKLOG_H_INCLUDED
 #define	IMKLOG_H_INCLUDED 1
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "dirty.h"
 
 /* we need to have the modConf type present in all submodules */

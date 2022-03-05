@@ -45,7 +45,7 @@
 #ifndef _PARSE_H_INCLUDED__
 #define _PARSE_H_INCLUDED__ 1
 
-#include "stringbuf.h"
+#include "runtime/stringbuf.h"
 
 /**
  * The parse object

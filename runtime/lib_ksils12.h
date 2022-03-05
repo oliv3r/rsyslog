@@ -22,7 +22,7 @@
 #define INCLUDED_KSILS12_H
 #include <ksi/ksi.h>
 
-#include "lib_ksi_queue.h"
+#include "runtime/lib_ksi_queue.h"
 
 #define MAX_ROOTS 64
 

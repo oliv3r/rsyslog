@@ -37,17 +37,17 @@
 #include <pthread.h>
 #include <errno.h>
 
-#include "rsyslog.h"
-#include "stringbuf.h"
-#include "srUtils.h"
-#include "errmsg.h"
-#include "wtp.h"
-#include "wti.h"
-#include "obj.h"
-#include "glbl.h"
+#include "runtime/rsyslog.h"
+#include "runtime/stringbuf.h"
+#include "runtime/srUtils.h"
+#include "runtime/errmsg.h"
+#include "runtime/wtp.h"
+#include "runtime/wti.h"
+#include "runtime/obj.h"
+#include "runtime/glbl.h"
 #include "action.h"
-#include "atomic.h"
-#include "rsconf.h"
+#include "runtime/atomic.h"
+#include "runtime/rsconf.h"
 
 /* static data */
 DEFobjStaticHelpers

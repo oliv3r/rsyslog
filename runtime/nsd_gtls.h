@@ -22,7 +22,7 @@
 #ifndef INCLUDED_NSD_GTLS_H
 #define INCLUDED_NSD_GTLS_H
 
-#include "nsd.h"
+#include "runtime/nsd.h"
 
 #define NSD_GTLS_MAX_RCVBUF 16 * 1024 + 1/* TLS RFC 8449: max size of buffer for message reception */
 #define NSD_GTLS_MAX_CERT 10 /* max number of certs in our chain */

@@ -20,12 +20,12 @@
 #ifndef	SYSLOGD_H_INCLUDED
 #define	SYSLOGD_H_INCLUDED 1
 
-#include "syslogd-types.h"
-#include "objomsr.h"
-#include "modules.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/objomsr.h"
+#include "runtime/modules.h"
 #include "template.h"
 #include "action.h"
-#include "linkedlist.h"
+#include "runtime/linkedlist.h"
 
 /* the following prototypes should go away once we have an input
  * module interface -- rgerhards, 2007-12-12

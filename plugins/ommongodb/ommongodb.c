@@ -35,7 +35,7 @@
 #include <stdint.h>
 #include <time.h>
 #include <json.h>
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 /* we need this to avoid issues with older versions of libbson */
 PRAGMA_DIAGNOSTIC_PUSH
 PRAGMA_IGNORE_Wpragmas
@@ -46,16 +46,16 @@ PRAGMA_IGNORE_Wexpansion_to_defined
 #include <bson.h>
 PRAGMA_DIAGNOSTIC_POP
 
-#include "conf.h"
-#include "syslogd-types.h"
-#include "srUtils.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
 #include "template.h"
-#include "module-template.h"
-#include "datetime.h"
-#include "errmsg.h"
-#include "cfsysline.h"
+#include "runtime/module-template.h"
+#include "runtime/datetime.h"
+#include "runtime/errmsg.h"
+#include "runtime/cfsysline.h"
 #include "grammar/parserif.h"
-#include "unicode-helper.h"
+#include "runtime/unicode-helper.h"
 
 MODULE_TYPE_OUTPUT
 MODULE_TYPE_NOKEEP

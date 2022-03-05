@@ -1,7 +1,7 @@
 /* Copyright (C) 2004 Christopher Clark <firstname.lastname@cl.cam.ac.uk> */
 /* taken from http://www.cl.cam.ac.uk/~cwc22/hashtable/ */
 
-#include "hashtable_private.h"
+#include "runtime/hashtable_private.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>

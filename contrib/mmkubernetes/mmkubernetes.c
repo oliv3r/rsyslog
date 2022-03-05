@@ -33,7 +33,7 @@
 #endif
 
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
@@ -48,17 +48,17 @@
 #include <curl/curl.h>
 #include <curl/easy.h>
 #include <pthread.h>
-#include "conf.h"
-#include "syslogd-types.h"
-#include "module-template.h"
-#include "errmsg.h"
-#include "statsobj.h"
-#include "regexp.h"
-#include "hashtable.h"
-#include "hashtable_itr.h"
-#include "srUtils.h"
-#include "unicode-helper.h"
-#include "datetime.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/module-template.h"
+#include "runtime/errmsg.h"
+#include "runtime/statsobj.h"
+#include "runtime/regexp.h"
+#include "runtime/hashtable.h"
+#include "runtime/hashtable_itr.h"
+#include "runtime/srUtils.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/datetime.h"
 
 /* static data */
 MODULE_TYPE_OUTPUT /* this is technically an output plugin */

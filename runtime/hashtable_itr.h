@@ -2,7 +2,7 @@
 
 #ifndef __HASHTABLE_ITR_CWC22__
 #define __HASHTABLE_ITR_CWC22__
-#include "hashtable_private.h" /* needed to enable inlining */
+#include "runtime/hashtable_private.h" /* needed to enable inlining */
 
 /*****************************************************************************/
 /* This struct is only concrete here to allow the inlining of two of the

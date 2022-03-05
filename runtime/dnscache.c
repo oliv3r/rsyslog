@@ -27,7 +27,7 @@
  */
 #include "config.h"
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <signal.h>
@@ -35,16 +35,16 @@
 #include <unistd.h>
 #include <ctype.h>
 
-#include "syslogd-types.h"
-#include "glbl.h"
-#include "errmsg.h"
-#include "obj.h"
-#include "unicode-helper.h"
-#include "net.h"
-#include "hashtable.h"
-#include "prop.h"
-#include "dnscache.h"
-#include "rsconf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/glbl.h"
+#include "runtime/errmsg.h"
+#include "runtime/obj.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/net.h"
+#include "runtime/hashtable.h"
+#include "runtime/prop.h"
+#include "runtime/dnscache.h"
+#include "runtime/rsconf.h"
 
 /* module data structures */
 struct dnscache_entry_s {

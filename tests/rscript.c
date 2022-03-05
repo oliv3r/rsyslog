@@ -28,7 +28,7 @@
 #include <glob.h>
 #include <sys/stat.h>
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "testbench.h"
 #include "ctok.h"
 #include "expr.h"

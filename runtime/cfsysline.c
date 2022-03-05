@@ -34,14 +34,14 @@
 #include <pwd.h>
 #include <grp.h>
 
-#include "rsyslog.h"
-#include "cfsysline.h"
-#include "obj.h"
-#include "conf.h"
-#include "errmsg.h"
-#include "srUtils.h"
-#include "unicode-helper.h"
-#include "rsconf.h"
+#include "runtime/rsyslog.h"
+#include "runtime/cfsysline.h"
+#include "runtime/obj.h"
+#include "runtime/conf.h"
+#include "runtime/errmsg.h"
+#include "runtime/srUtils.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/rsconf.h"
 #include "grammar/parserif.h"
 
 

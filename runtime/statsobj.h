@@ -21,7 +21,7 @@
 #ifndef INCLUDED_STATSOBJ_H
 #define INCLUDED_STATSOBJ_H
 
-#include "atomic.h"
+#include "runtime/atomic.h"
 
 /* The following data item is somewhat dirty, in that it does not follow
  * our usual object calling conventions. However, much like with "Debug", we

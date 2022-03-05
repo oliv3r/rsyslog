@@ -32,16 +32,16 @@
 #include <fcntl.h>
 #include <sys/wait.h>
 #include <sys/uio.h>
-#include "rsyslog.h"
-#include "conf.h"
-#include "syslogd-types.h"
-#include "srUtils.h"
-#include "module-template.h"
-#include "msg.h"
-#include "errmsg.h"
-#include "cfsysline.h"
-#include "glbl.h"
-#include "rsconf.h"
+#include "runtime/rsyslog.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
+#include "runtime/module-template.h"
+#include "runtime/msg.h"
+#include "runtime/errmsg.h"
+#include "runtime/cfsysline.h"
+#include "runtime/glbl.h"
+#include "runtime/rsconf.h"
 
 
 MODULE_TYPE_OUTPUT

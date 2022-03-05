@@ -37,9 +37,9 @@
 #include <sys/time.h>
 #include <json.h>
 
-#include "rsyslog.h"
-#include "srUtils.h"
-#include "debug.h"
+#include "runtime/rsyslog.h"
+#include "runtime/srUtils.h"
+#include "runtime/debug.h"
 #include "imkmsg.h"
 
 /* globals */

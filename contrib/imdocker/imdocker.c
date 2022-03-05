@@ -26,7 +26,7 @@
 #define _XPG4_2
 #endif
 #include "config.h"
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
@@ -37,22 +37,22 @@
 #include <assert.h>
 #include <signal.h>
 #include <stdbool.h>
-#include "cfsysline.h"  /* access to config file objects */
-#include "unicode-helper.h"
-#include "module-template.h"
-#include "srUtils.h"    /* some utility functions */
-#include "errmsg.h"
-#include "net.h"
-#include "glbl.h"
-#include "msg.h"
-#include "parser.h"
-#include "prop.h"
-#include "debug.h"
-#include "statsobj.h"
-#include "datetime.h"
-#include "ratelimit.h"
-#include "hashtable.h"
-#include "hashtable_itr.h"
+#include "runtime/cfsysline.h"  /* access to config file objects */
+#include "runtime/unicode-helper.h"
+#include "runtime/module-template.h"
+#include "runtime/srUtils.h"    /* some utility functions */
+#include "runtime/errmsg.h"
+#include "runtime/net.h"
+#include "runtime/glbl.h"
+#include "runtime/msg.h"
+#include "runtime/parser.h"
+#include "runtime/prop.h"
+#include "runtime/debug.h"
+#include "runtime/statsobj.h"
+#include "runtime/datetime.h"
+#include "runtime/ratelimit.h"
+#include "runtime/hashtable.h"
+#include "runtime/hashtable_itr.h"
 
 #if !defined(_AIX)
 #pragma GCC diagnostic ignored "-Wswitch-enum"

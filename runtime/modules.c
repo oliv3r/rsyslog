@@ -49,14 +49,14 @@
 #include <unistd.h>
 #include <sys/file.h>
 
-#include "rsyslog.h"
+#include "runtime/rsyslog.h"
 #include "grammar/rainerscript.h"
-#include "cfsysline.h"
-#include "rsconf.h"
-#include "modules.h"
-#include "errmsg.h"
-#include "parser.h"
-#include "strgen.h"
+#include "runtime/cfsysline.h"
+#include "runtime/rsconf.h"
+#include "runtime/modules.h"
+#include "runtime/errmsg.h"
+#include "runtime/parser.h"
+#include "runtime/strgen.h"
 
 /* static data */
 DEFobjStaticHelpers

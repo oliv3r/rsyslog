@@ -34,17 +34,17 @@
 #include <time.h>
 #include <sys/time.h>
 
-#include "rsyslog.h"
-#include "conf.h"
-#include "syslogd-types.h"
-#include "srUtils.h"
+#include "runtime/rsyslog.h"
+#include "runtime/conf.h"
+#include "runtime/syslogd-types.h"
+#include "runtime/srUtils.h"
 #include "template.h"
-#include "module-template.h"
-#include "errmsg.h"
-#include "cfsysline.h"
-#include "debug.h"
-#include "datetime.h"
-#include "rsconf.h"
+#include "runtime/module-template.h"
+#include "runtime/errmsg.h"
+#include "runtime/cfsysline.h"
+#include "runtime/debug.h"
+#include "runtime/datetime.h"
+#include "runtime/rsconf.h"
 
 #include <sys/socket.h>
 

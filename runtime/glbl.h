@@ -35,7 +35,7 @@
 #include <liblogging/stdlog.h>
 #endif
 #include "grammar/rainerscript.h"
-#include "prop.h"
+#include "runtime/prop.h"
 
 #define glblGetIOBufSize() 4096 /* size of the IO buffer, e.g. for strm class */
 #define glblOversizeMsgInputMode_Truncate 0

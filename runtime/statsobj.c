@@ -33,16 +33,16 @@
 #include <assert.h>
 #include <json.h>
 
-#include "rsyslog.h"
-#include "unicode-helper.h"
-#include "obj.h"
-#include "statsobj.h"
-#include "srUtils.h"
-#include "stringbuf.h"
-#include "errmsg.h"
-#include "hashtable.h"
-#include "hashtable_itr.h"
-#include "rsconf.h"
+#include "runtime/rsyslog.h"
+#include "runtime/unicode-helper.h"
+#include "runtime/obj.h"
+#include "runtime/statsobj.h"
+#include "runtime/srUtils.h"
+#include "runtime/stringbuf.h"
+#include "runtime/errmsg.h"
+#include "runtime/hashtable.h"
+#include "runtime/hashtable_itr.h"
+#include "runtime/rsconf.h"
 
 
 /* externally-visiable data (see statsobj.h for explanation) */
