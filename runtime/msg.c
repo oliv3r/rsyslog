@@ -82,7 +82,9 @@ struct json_object *global_var_root = NULL;
 DEFobjStaticHelpers
 DEFobjCurrIf(datetime)
 DEFobjCurrIf(glbl)
+#ifdef FEATURE_REGEXP
 DEFobjCurrIf(regexp)
+#endif
 DEFobjCurrIf(prop)
 DEFobjCurrIf(net)
 DEFobjCurrIf(var)

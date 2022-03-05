@@ -1461,8 +1461,6 @@ createPropertyTpe(struct template *pTpl, struct cnfobj *o)
 	int fieldnum = -1;
 	int fielddelim = 9; /* default is HT (USACSII 9) */
 	int fixedwidth = 0;
-	int re_matchToUse = 0;
-	int re_submatchToUse = 0;
 	int bComplexProcessing = 0;
 	int bPosRelativeToEnd = 0;
 	int bDateInUTC = 0;
@@ -1476,8 +1474,12 @@ createPropertyTpe(struct template *pTpl, struct cnfobj *o)
 	enum {SP_NONE, SP_DROP, SP_REPLACE} secpath = SP_NONE;
 	enum tplFormatCaseConvTypes caseconv = tplCaseConvNo;
 	enum tplFormatTypes datefmt = tplFmtDefault;
+#ifdef FEATURE_REGEXP
+	int re_matchToUse = 0;
+	int re_submatchToUse = 0;
 	enum tplRegexType re_type = TPL_REGEX_BRE;
 	enum tlpRegexNoMatchType re_nomatchType = TPL_REGEX_NOMATCH_USE_DFLTSTR;
+#endif
 	DEFiRet;
 
 	/* pull params */
@@ -1550,6 +1552,7 @@ createPropertyTpe(struct template *pTpl, struct cnfobj *o)
 		} else if(!strcmp(pblkProperty.descr[i].name, "field.delimiter")) {
 			fielddelim = pvals[i].val.d.n;
 			bComplexProcessing = 1;
+#ifdef FEATURE_REGEXP
 		} else if(!strcmp(pblkProperty.descr[i].name, "regex.expression")) {
 			re_expr = es_str2cstr(pvals[i].val.d.estr, NULL);
 			bComplexProcessing = 1;
@@ -1589,6 +1592,7 @@ createPropertyTpe(struct template *pTpl, struct cnfobj *o)
 		} else if(!strcmp(pblkProperty.descr[i].name, "regex.submatch")) {
 			bComplexProcessing = 1;
 			re_submatchToUse = pvals[i].val.d.n;
+#endif
 		} else if(!strcmp(pblkProperty.descr[i].name, "format")) {
 			bComplexProcessing = 1;
 			if(!es_strbufcmp(pvals[i].val.d.estr, (uchar*)"csv", sizeof("csv")-1)) {
@@ -1820,6 +1824,7 @@ createPropertyTpe(struct template *pTpl, struct cnfobj *o)
 		pTpe->data.field.options.bFromPosEndRelative = bPosRelativeToEnd;
 	}
 	if(re_expr != NULL) {
+#ifdef FEATURE_REGEXP
 		rsRetVal iRetLocal;
 		pTpe->data.field.typeRegex = re_type;
 		pTpe->data.field.nomatchAction = re_nomatchType;
@@ -1844,6 +1849,9 @@ createPropertyTpe(struct template *pTpl, struct cnfobj *o)
 			pTpe->data.field.has_regex = 2;
 			ABORT_FINALIZE(RS_RET_ERR);
 		}
+#else
+		LogError(0, NO_ERRCODE, "regex support disabled!");
+#endif
 	}
 
 finalize_it:
