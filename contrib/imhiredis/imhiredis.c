@@ -124,7 +124,7 @@ static struct imhiredisWrkrInfo_s {
 pthread_attr_t wrkrThrdAttr;	/* Attribute for worker threads ; read only after startup */
 
 static int activeHiredisworkers = 0;
-static char *redis_replies[] = {"unknown", "string", "array", "integer", "nil", "status", "error"};
+static const char *redis_replies[] = {"unknown", "string", "array", "integer", "nil", "status", "error"};
 
 static modConfData_t *loadModConf = NULL;/* modConf ptr to use for the current load process */
 static modConfData_t *runModConf = NULL;/* modConf ptr to use for the current load process */
