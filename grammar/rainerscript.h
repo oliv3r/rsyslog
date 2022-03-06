@@ -20,7 +20,6 @@
 #define INC_UTILS_H
 #include <stdio.h>
 #include <libestr.h>
-#include <typedefs.h>
 #include <sys/types.h>
 #include <json.h>
 #include <regex.h>
