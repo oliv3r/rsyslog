@@ -45,7 +45,7 @@
 #include "runtime/linkedlist.h"
 #include "runtime/ruleset.h"
 #include "action.h"
-#include "iminternal.h"
+#include "tools/iminternal.h"
 #include "runtime/errmsg.h"
 #include "threads.h"
 #include "runtime/dnscache.h"

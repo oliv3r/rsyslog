@@ -40,14 +40,14 @@
 #include <zlib.h>
 #include <pthread.h>
 #include "runtime/rsyslog.h"
-#include "syslogd.h"
+#include "tools/syslogd.h"
 #include "runtime/conf.h"
 #include "runtime/syslogd-types.h"
 #include "runtime/srUtils.h"
 #include "runtime/net.h"
 #include "runtime/netstrms.h"
 #include "runtime/netstrm.h"
-#include "omfwd.h"
+#include "tools/omfwd.h"
 #include "template.h"
 #include "runtime/msg.h"
 #include "runtime/tcpclt.h"

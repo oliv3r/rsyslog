@@ -93,10 +93,10 @@
 #include "runtime/syslogd-types.h"
 #include "template.h"
 #include "outchannel.h"
-#include "syslogd.h"
+#include "tools/syslogd.h"
 
 #include "runtime/msg.h"
-#include "iminternal.h"
+#include "tools/iminternal.h"
 #include "threads.h"
 #include "runtime/parser.h"
 #include "runtime/unicode-helper.h"

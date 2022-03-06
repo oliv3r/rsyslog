@@ -61,7 +61,7 @@
 #include "runtime/srUtils.h"
 #include "template.h"
 #include "outchannel.h"
-#include "omfile.h"
+#include "tools/omfile.h"
 #include "runtime/cfsysline.h"
 #include "runtime/module-template.h"
 #include "runtime/errmsg.h"

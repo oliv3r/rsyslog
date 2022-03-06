@@ -34,9 +34,9 @@
 #include <sys/types.h>
 #include <signal.h>
 
-#include "syslogd.h"
+#include "tools/syslogd.h"
 #include "runtime/linkedlist.h"
-#include "iminternal.h"
+#include "tools/iminternal.h"
 
 static linkedList_t llMsgs;
 static pthread_mutex_t mutList = PTHREAD_MUTEX_INITIALIZER;

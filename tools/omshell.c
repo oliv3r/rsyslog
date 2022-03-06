@@ -47,7 +47,7 @@
 #include "runtime/conf.h"
 #include "runtime/syslogd-types.h"
 #include "runtime/srUtils.h"
-#include "omshell.h"
+#include "tools/omshell.h"
 #include "runtime/module-template.h"
 #include "runtime/errmsg.h"
 

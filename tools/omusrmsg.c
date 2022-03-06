@@ -61,7 +61,7 @@
 #include "runtime/stringbuf.h"
 #include "runtime/syslogd-types.h"
 #include "runtime/conf.h"
-#include "omusrmsg.h"
+#include "tools/omusrmsg.h"
 #include "runtime/module-template.h"
 #include "runtime/errmsg.h"
 

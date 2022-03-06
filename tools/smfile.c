@@ -36,7 +36,7 @@
 #include <string.h>
 #include <assert.h>
 #include <errno.h>
-#include "syslogd.h"
+#include "tools/syslogd.h"
 #include "runtime/conf.h"
 #include "runtime/syslogd-types.h"
 #include "template.h"

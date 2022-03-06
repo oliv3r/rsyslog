@@ -31,9 +31,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
-#include "syslogd.h"
+#include "tools/syslogd.h"
 #include "runtime/syslogd-types.h"
-#include "omdiscard.h"
+#include "tools/omdiscard.h"
 #include "runtime/module-template.h"
 #include "runtime/errmsg.h"
 

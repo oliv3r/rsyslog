@@ -44,12 +44,12 @@
 #include <sys/file.h>
 
 #include "runtime/rsyslog.h"
-#include "syslogd.h"
+#include "tools/syslogd.h"
 #include "runtime/syslogd-types.h"
 #include "runtime/srUtils.h"
 #include "template.h"
-#include "ompipe.h"
-#include "omfile.h" /* for dirty trick: access to $ActionFileDefaultTemplate value */
+#include "tools/ompipe.h"
+#include "tools/omfile.h" /* for dirty trick: access to $ActionFileDefaultTemplate value */
 #include "runtime/cfsysline.h"
 #include "runtime/module-template.h"
 #include "runtime/conf.h"
