@@ -1421,9 +1421,7 @@ createRedisNode(redisNode **root) {
 	node->isMaster = 0;
 	node->next = NULL;
 
-	if (!root) {
-		*root = node;
-	} else {
+	if (root) {
 		node->next = (*root);
 		*root = node;
 	}
