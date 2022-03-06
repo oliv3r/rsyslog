@@ -717,7 +717,7 @@ static void redisAsyncDisconnectCallback (const redisAsyncContext *c, int status
  *	context should be a valid redis context
  *	returns a valid redisReply pointer if an array reply was received, NULL otherwise
  */
-redisReply *getRole(redisContext *c) {
+static redisReply *getRole(redisContext *c) {
 	redisReply *reply;
 
 	assert(c != NULL);
